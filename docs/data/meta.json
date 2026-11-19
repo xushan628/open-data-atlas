@@ -1,5 +1,35 @@
 [
  {
+  "dataset_id": "poetry",
+  "sort_order": 1,
+  "name": "chinese-poetry 中华古典诗歌",
+  "repo": "chinese-poetry/chinese-poetry",
+  "repo_url": "https://github.com/chinese-poetry/chinese-poetry",
+  "stars": 54466,
+  "license": "MIT",
+  "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+  "homepage": "https://awesome-poetry.top/",
+  "video_ts": "00:08",
+  "sample_note": "宋词全量（29 个分片）；全唐诗仅取 12/320 个分片；作者表取唐诗/宋词两份",
+  "bytes": 15435766,
+  "row_count": 38248
+ },
+ {
+  "dataset_id": "words",
+  "sort_order": 2,
+  "name": "word-atlas 词光·文字图集",
+  "repo": "designfuchen/word-atlas",
+  "repo_url": "https://github.com/designfuchen/word-atlas",
+  "stars": 5047,
+  "license": "NOASSERTION",
+  "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+  "homepage": "https://0xlei.tech/words/",
+  "video_ts": "00:25",
+  "sample_note": "全量 7,298 词条（word-atlas.json），代码 MIT / 数据 CC BY 4.0",
+  "bytes": 8103333,
+  "row_count": 7298
+ },
+ {
   "dataset_id": "exercises",
   "sort_order": 3,
   "name": "exercises-dataset 健身动作库",
@@ -43,35 +73,5 @@
   "sample_note": "15TB 本体在 Hugging Face，仓库里只取 26 个数据集的元数据(yaml)与说明",
   "bytes": 39967,
   "row_count": 22
- },
- {
-  "dataset_id": "poetry",
-  "sort_order": 1,
-  "name": "chinese-poetry 中华古典诗歌",
-  "repo": "chinese-poetry/chinese-poetry",
-  "repo_url": "https://github.com/chinese-poetry/chinese-poetry",
-  "stars": 54466,
-  "license": "MIT",
-  "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
-  "homepage": "https://awesome-poetry.top/",
-  "video_ts": "00:08",
-  "sample_note": "宋词全量（29 个分片）；全唐诗仅取 12/320 个分片；作者表取唐诗/宋词两份",
-  "bytes": 15435766,
-  "row_count": 38248
- },
- {
-  "dataset_id": "words",
-  "sort_order": 2,
-  "name": "word-atlas 词光·文字图集",
-  "repo": "designfuchen/word-atlas",
-  "repo_url": "https://github.com/designfuchen/word-atlas",
-  "stars": 5047,
-  "license": "NOASSERTION",
-  "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-  "homepage": "https://0xlei.tech/words/",
-  "video_ts": "00:25",
-  "sample_note": "全量 7,298 词条（word-atlas.json），代码 MIT / 数据 CC BY 4.0",
-  "bytes": 8103333,
-  "row_count": 7298
  }
 ]

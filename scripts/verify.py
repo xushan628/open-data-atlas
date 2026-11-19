@@ -129,12 +129,63 @@ def http_checks(base: str) -> None:
     check(status == 200 and rows.get("total", 0) >= 1, "浏览接口：城市搜索 Beijing", str(rows.get("total")))
 
 
+def site_checks(base: str) -> None:
+    """检查已发布的 Pages 静态站（没有 /api，检查 HTML 与数据 JSON）。"""
+
+    def get(path: str):
+        req = urllib.request.Request(base + path, headers={"User-Agent": "open-data-atlas-verify"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return resp.status, resp.read()
+
+    try:
+        status, html = get("/")
+        text = html.decode("utf-8", "replace")
+        check(status == 200 and "开源数据集图鉴" in text, "Pages 首页可打开")
+        check("SQL 练习" in text or "sql-practice" in text, "首页链到 SQL 练习")
+    except Exception as exc:  # noqa: BLE001
+        check(False, "Pages 首页可打开", str(exc))
+        return
+
+    try:
+        status, raw = get("/data/meta.json")
+        meta = json.loads(raw.decode("utf-8"))
+        repos = [m["repo"] for m in meta]
+        check(status == 200 and len(meta) == 5, "静态站数据：5 个数据集", ",".join(repos))
+        check(
+            set(repos)
+            == {
+                "chinese-poetry/chinese-poetry",
+                "designfuchen/word-atlas",
+                "hasaneyldrm/exercises-dataset",
+                "dr5hn/countries-states-cities-database",
+                "PolymathicAI/the_well",
+            },
+            "静态站数据：仓库名与视频一致",
+        )
+    except Exception as exc:  # noqa: BLE001
+        check(False, "静态站数据 meta.json", str(exc))
+
+    for page, keyword in (("/sql-practice.html", "SQL 练习"), ("/licenses.html", "ODbL"), ("/404.html", "404")):
+        try:
+            status, raw = get(page)
+            check(status == 200 and keyword in raw.decode("utf-8", "replace"), f"静态页 {page}")
+        except Exception as exc:  # noqa: BLE001
+            check(False, f"静态页 {page}", str(exc))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="开源数据集图鉴 · 验收")
     ap.add_argument("--base", help="服务地址，默认 http://127.0.0.1:<port>")
     ap.add_argument("--port", type=int, default=8790)
     ap.add_argument("--http-only", action="store_true", help="只跑 HTTP 部分（检查远端站点时用）")
+    ap.add_argument("--site", help="检查已发布的 GitHub Pages 站点，例如 https://xushan628.github.io/open-data-atlas")
     args = ap.parse_args()
+
+    if args.site:
+        print(f"== Pages 验收 · {time.strftime('%Y-%m-%d %H:%M:%S')} · {args.site}\n")
+        site_checks(args.site.rstrip("/"))
+        return _summary()
+
     base = (args.base or f"http://127.0.0.1:{args.port}").rstrip("/")
 
     print(f"== 验收开始 · {time.strftime('%Y-%m-%d %H:%M:%S')} · {base}\n")
@@ -142,7 +193,10 @@ def main() -> int:
         local_checks()
         print()
     http_checks(base)
+    return _summary()
 
+
+def _summary() -> int:
     passed = sum(1 for ok, _, _ in RESULTS if ok)
     total = len(RESULTS)
     print(f"\n== 结果：{passed}/{total} 通过")

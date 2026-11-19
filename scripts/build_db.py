@@ -523,7 +523,7 @@ def export_samples(con: sqlite3.Connection) -> list[str]:
         "meta.json",
         [
             dict(zip([c[0] for c in con.execute("SELECT * FROM meta_datasets LIMIT 0").description], r))
-            for r in con.execute("SELECT * FROM meta_datasets ORDER BY rowid")
+            for r in con.execute("SELECT * FROM meta_datasets ORDER BY sort_order")
         ],
     )
     dump(

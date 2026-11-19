@@ -3,7 +3,9 @@
 > 抖音视频《gitthub 上 5 个高质量的开源数据库》里的 5 个数据集，已**真下载、真入库、真能查**。
 > 不是链接清单：`data/atlas.sqlite` 里躺着 **223,784 行**真实数据，配一个本地 Web 应用（浏览 + 搜索 + 只读 SQL 控制台）。
 
-原视频：<https://www.douyin.com/video/7705208592323874111>（作者「特黑洞Lab」，时长 1:46）
+- 🌐 **在线版（GitHub Pages）**：<https://xushan628.github.io/open-data-atlas/>
+- 📦 **源码仓库**：<https://github.com/xushan628/open-data-atlas>
+- 🎬 **原视频**：<https://www.douyin.com/video/7705208592323874111>（作者「特黑洞Lab」，时长 1:46）
 
 ---
 
@@ -45,6 +47,8 @@ python scripts/serve.py
 | 命令行查库 | `sqlite3 data/atlas.sqlite` |
 
 > `.cmd` 文件必须是 **GBK/ANSI 编码**（中文系统下 cmd.exe 按 GBK 解析批处理，UTF-8 会把中文行拆坏）。脚本里已经注明。
+>
+> 重建数据库前请先 `stop-atlas.cmd`：Windows 下服务持有 `atlas.sqlite`，否则 `build_db.py` 会报 `PermissionError: [WinError 32]`。
 
 ---
 
@@ -127,8 +131,9 @@ WHERE w.word = 'library';
 ## 六、验收
 
 ```bash
-python -m unittest discover tests -v   # 20 个测试：表结构/内容抽样/API/只读边界
-python scripts/verify.py               # 18 项验收：manifest 校验 + 服务 + SQL + 只读
+python -m unittest discover tests -v                      # 20 个测试：表结构/内容抽样/API/只读边界
+python scripts/verify.py                                  # 18 项验收：manifest 校验 + 服务 + SQL + 只读
+python scripts/verify.py --site https://xushan628.github.io/open-data-atlas   # 7 项：线上 Pages 站
 ```
 
 当前状态：**20/20 测试通过，18/18 验收通过**。验收项包括 `manifest.json` 里 95 个文件的 SHA-256 全量比对。

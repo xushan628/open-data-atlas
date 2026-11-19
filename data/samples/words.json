@@ -1,962 +1,962 @@
 [
  {
-  "word": "ploy",
-  "uk": "/plɔɪ/",
-  "us": "/plɔɪ/",
+  "word": "foretell",
+  "uk": "/fɔːˈtel/",
+  "us": "/fɔːrˈtel/",
   "cefr": "C1",
   "topic": "thinking",
-  "zh": "计策；花招"
+  "zh": "预言；预示"
  },
  {
-  "word": "village",
-  "uk": "/ˈvɪlɪdʒ/",
-  "us": "/ˈvɪlɪdʒ/",
-  "cefr": "A1",
-  "topic": "city",
-  "zh": "村庄"
- },
- {
-  "word": "today",
-  "uk": "/təˈdeɪ/",
-  "us": "/təˈdeɪ/",
+  "word": "date",
+  "uk": "/deɪt/",
+  "us": "/deɪt/",
   "cefr": "A1",
   "topic": "daily",
-  "zh": "今天；现今"
+  "zh": "日期"
  },
  {
-  "word": "safeguard",
-  "uk": "/ˈseɪfɡɑːd/",
-  "us": "/ˈseɪfɡɑːrd/",
-  "cefr": "C1",
-  "topic": "government",
-  "zh": "保护；保障"
- },
- {
-  "word": "sun",
-  "uk": "/sʌn/",
-  "us": "/sʌn/",
-  "cefr": "A1",
+  "word": "weed",
+  "uk": "/wiːd/",
+  "us": "/wiːd/",
+  "cefr": "B2",
   "topic": "nature",
-  "zh": "太阳"
+  "zh": "杂草"
  },
  {
-  "word": "hotel",
-  "uk": "/həʊˈtel/",
-  "us": "/hoʊˈtel/",
-  "cefr": "A1",
-  "topic": "travel",
-  "zh": "酒店；旅馆"
- },
- {
-  "word": "frustration",
-  "uk": "/frʌˈstreɪʃən/",
-  "us": "/frʌˈstreɪʃən/",
-  "cefr": "B2",
-  "topic": "emotion",
-  "zh": "受挫感；懊恼"
- },
- {
-  "word": "twice",
-  "uk": "/twaɪs/",
-  "us": "/twaɪs/",
-  "cefr": "A1",
+  "word": "blonde",
+  "uk": "/blɒnd/",
+  "us": "/blɑːnd/",
+  "cefr": "A2",
   "topic": "daily",
-  "zh": "两次"
+  "zh": "金发的；浅金色的"
  },
  {
-  "word": "movement",
-  "uk": "/ˈmuːvmənt/",
-  "us": "/ˈmuːvmənt/",
-  "cefr": "B1",
+  "word": "secluded",
+  "uk": "/sɪˈkluːdɪd/",
+  "us": "/sɪˈkluːdɪd/",
+  "cefr": "C1",
+  "topic": "travel",
+  "zh": "僻静的；隐蔽的"
+ },
+ {
+  "word": "mistress",
+  "uk": "/ˈmɪstrəs/",
+  "us": "/ˈmɪstrəs/",
+  "cefr": "C1",
   "topic": "society",
-  "zh": "移动；动作"
+  "zh": "情妇；婚外女伴"
  },
  {
-  "word": "corporate",
-  "uk": "/ˈkɔːpərət/",
-  "us": "/ˈkɔːrpərət/",
+  "word": "shift",
+  "uk": "/ʃɪft/",
+  "us": "/ʃɪft/",
   "cefr": "B2",
   "topic": "work",
-  "zh": "公司的；企业的"
+  "zh": "移动；转变"
  },
  {
-  "word": "emigrate",
-  "uk": "/ˈem.ɪ.ɡreɪt/",
-  "us": "/ˈem.ə.ɡreɪt/",
-  "cefr": "B2",
-  "topic": "society",
-  "zh": "移居国外"
- },
- {
-  "word": "heel",
-  "uk": "/hiːl/",
-  "us": "/hiːl/",
-  "cefr": "B1",
-  "topic": "health",
-  "zh": "脚后跟"
- },
- {
-  "word": "wrong",
-  "uk": "/rɒŋ/",
-  "us": "/rɔːŋ/",
-  "cefr": "A1",
-  "topic": "daily",
-  "zh": "错误的；不合适的"
- },
- {
-  "word": "subsidize",
-  "uk": "/ˈsʌbsɪdaɪz/",
-  "us": "/ˈsʌbsɪdaɪz/",
-  "cefr": "C1",
-  "topic": "economy",
-  "zh": "补贴；资助"
- },
- {
-  "word": "trolley",
-  "uk": "/ˈtrɒli/",
-  "us": "/ˈtrɑːli/",
-  "cefr": "B1",
-  "topic": "daily",
-  "zh": "手推车"
- },
- {
-  "word": "rust",
-  "uk": "/rʌst/",
-  "us": "/rʌst/",
-  "cefr": "B2",
-  "topic": "science",
-  "zh": "铁锈"
- },
- {
-  "word": "knock",
-  "uk": "/nɒk/",
-  "us": "/nɑːk/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "敲；敲击"
- },
- {
-  "word": "scooter",
-  "uk": "/ˈskuːtə/",
-  "us": "/ˈskuːtər/",
-  "cefr": "B1",
-  "topic": "travel",
-  "zh": "滑板车"
- },
- {
-  "word": "express",
-  "uk": "/ɪkˈspres/",
-  "us": "/ɪkˈspres/",
-  "cefr": "B1",
-  "topic": "society",
-  "zh": "表达；表露"
- },
- {
-  "word": "basket",
-  "uk": "/ˈbɑːskɪt/",
-  "us": "/ˈbæskɪt/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "篮子；筐"
- },
- {
-  "word": "purse",
-  "uk": "/pɜːs/",
-  "us": "/pɝːs/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "零钱包；女式手提包"
- },
- {
-  "word": "absence",
-  "uk": "/ˈæbsəns/",
-  "us": "/ˈæbsəns/",
-  "cefr": "B2",
-  "topic": "work",
-  "zh": "缺席；不在"
- },
- {
-  "word": "orientate",
-  "uk": "/ˈɔːriənteɪt/",
-  "us": "/ˈɔːriənteɪt/",
-  "cefr": "C1",
-  "topic": "travel",
-  "zh": "确定方位；熟悉环境"
- },
- {
-  "word": "timber",
-  "uk": "/ˈtɪmbə/",
-  "us": "/ˈtɪmbər/",
-  "cefr": "B2",
-  "topic": "environment",
-  "zh": "木材；建筑用木料"
- },
- {
-  "word": "queer",
-  "uk": "/kwɪə/",
-  "us": "/kwɪr/",
-  "cefr": "C1",
-  "topic": "society",
-  "zh": "奇怪的；反常的"
- },
- {
-  "word": "ill",
-  "uk": "/ɪl/",
-  "us": "/ɪl/",
-  "cefr": "A2",
-  "topic": "health",
-  "zh": "生病的；身体不适的"
- },
- {
-  "word": "dental",
-  "uk": "/ˈdentəl/",
-  "us": "/ˈdentəl/",
-  "cefr": "B2",
-  "topic": "health",
-  "zh": "牙齿的；牙科的"
- },
- {
-  "word": "amaze",
-  "uk": "/əˈmeɪz/",
-  "us": "/əˈmeɪz/",
-  "cefr": "B1",
-  "topic": "emotion",
-  "zh": "使惊奇；使惊叹"
- },
- {
-  "word": "family",
-  "uk": "/ˈfæməli/",
-  "us": "/ˈfæməli/",
-  "cefr": "A1",
-  "topic": "daily",
-  "zh": "家庭；家人；亲属"
- },
- {
-  "word": "paraphernalia",
-  "uk": "/ˌpærəfəˈneɪliə/",
-  "us": "/ˌpærəfərˈneɪliə/",
+  "word": "glutinous",
+  "uk": "/ˈɡluːtɪnəs/",
+  "us": "/ˈɡluːtənəs/",
   "cefr": "C2",
   "topic": "daily",
-  "zh": "全套用具；杂七杂八的物品"
+  "zh": "黏的；胶状的"
  },
  {
-  "word": "richness",
-  "uk": "/ˈrɪtʃnəs/",
-  "us": "/ˈrɪtʃnəs/",
-  "cefr": "B2",
-  "topic": "nature",
-  "zh": "丰富；多样"
- },
- {
-  "word": "glimpse",
-  "uk": "/ɡlɪmps/",
-  "us": "/ɡlɪmps/",
-  "cefr": "B2",
-  "topic": "daily",
-  "zh": "一瞥；短暂的一看"
- },
- {
-  "word": "fungus",
-  "uk": "/ˈfʌŋɡəs/",
-  "us": "/ˈfʌŋɡəs/",
+  "word": "invert",
+  "uk": "/ɪnˈvɜːt/",
+  "us": "/ɪnˈvɜːrt/",
   "cefr": "C1",
-  "topic": "nature",
-  "zh": "真菌"
+  "topic": "science",
+  "zh": "使倒置；使颠倒"
  },
  {
-  "word": "archery",
-  "uk": "/ˈɑːtʃəri/",
-  "us": "/ˈɑːrtʃəri/",
+  "word": "herbal",
+  "uk": "/ˈhɜːbəl/",
+  "us": "/ˈɝːbəl/",
+  "cefr": "B2",
+  "topic": "health",
+  "zh": "药草的；香草制的"
+ },
+ {
+  "word": "already",
+  "uk": "/ɔːlˈredi/",
+  "us": "/ɔːlˈredi/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "已经；早已"
+ },
+ {
+  "word": "monument",
+  "uk": "/ˈmɒnjʊmənt/",
+  "us": "/ˈmɑːnjəmənt/",
+  "cefr": "B1",
+  "topic": "history",
+  "zh": "纪念碑；纪念建筑"
+ },
+ {
+  "word": "impartial",
+  "uk": "/ɪmˈpɑːʃəl/",
+  "us": "/ɪmˈpɑːrʃəl/",
+  "cefr": "C1",
+  "topic": "society",
+  "zh": "公正的；不偏不倚的"
+ },
+ {
+  "word": "relay",
+  "uk": "/ˈriːleɪ/",
+  "us": "/ˈriːleɪ/",
   "cefr": "B2",
   "topic": "sport",
-  "zh": "射箭；射箭运动"
+  "zh": "接力赛"
  },
  {
-  "word": "finicky",
-  "uk": "/ˈfɪnɪki/",
-  "us": "/ˈfɪnɪki/",
-  "cefr": "C1",
-  "topic": "daily",
-  "zh": "过分挑剔的；难伺候的"
- },
- {
-  "word": "midst",
-  "uk": "/mɪdst/",
-  "us": "/mɪdst/",
-  "cefr": "C1",
-  "topic": "daily",
-  "zh": "中间；当中"
- },
- {
-  "word": "futures",
-  "uk": "/ˈfjuːtʃəz/",
-  "us": "/ˈfjuːtʃərz/",
-  "cefr": "C1",
-  "topic": "economy",
-  "zh": "期货；期货合约"
- },
- {
-  "word": "eyesight",
-  "uk": "/ˈaɪsaɪt/",
-  "us": "/ˈaɪsaɪt/",
-  "cefr": "B2",
-  "topic": "health",
-  "zh": "视力"
- },
- {
-  "word": "worst",
-  "uk": "/wɜːst/",
-  "us": "/wɝːst/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "最差的；最严重的"
- },
- {
-  "word": "esteem",
-  "uk": "/ɪˈstiːm/",
-  "us": "/ɪˈstiːm/",
-  "cefr": "C1",
-  "topic": "society",
-  "zh": "尊重；敬重"
- },
- {
-  "word": "notwithstanding",
-  "uk": "/ˌnɒtwɪðˈstændɪŋ/",
-  "us": "/ˌnɑːtwɪðˈstændɪŋ/",
+  "word": "essence",
+  "uk": "/ˈesəns/",
+  "us": "/ˈesəns/",
   "cefr": "C1",
   "topic": "thinking",
-  "zh": "尽管；虽然"
+  "zh": "本质；精髓"
  },
  {
-  "word": "defect",
-  "uk": "/ˈdiːfekt/",
-  "us": "/ˈdiːfekt/",
-  "cefr": "B2",
-  "topic": "technology",
-  "zh": "缺陷；瑕疵"
- },
- {
-  "word": "incompatible",
-  "uk": "/ˌɪnkəmˈpætəbl/",
-  "us": "/ˌɪnkəmˈpætəbl/",
-  "cefr": "C1",
-  "topic": "technology",
-  "zh": "不兼容的；不相容的"
- },
- {
-  "word": "coward",
-  "uk": "/ˈkaʊəd/",
-  "us": "/ˈkaʊərd/",
-  "cefr": "B2",
-  "topic": "emotion",
-  "zh": "胆小鬼；懦夫"
- },
- {
-  "word": "holding",
-  "uk": "/ˈhəʊldɪŋ/",
-  "us": "/ˈhoʊldɪŋ/",
-  "cefr": "C1",
-  "topic": "economy",
-  "zh": "持有的资产；股份"
- },
- {
-  "word": "cold",
-  "uk": "/kəʊld/",
-  "us": "/koʊld/",
-  "cefr": "A1",
+  "word": "twelfth",
+  "uk": "/twelfθ/",
+  "us": "/twelfθ/",
+  "cefr": "A2",
   "topic": "daily",
-  "zh": "冷的；寒冷的"
+  "zh": "第十二"
  },
  {
-  "word": "upstairs",
-  "uk": "/ˌʌpˈsteəz/",
-  "us": "/ˌʌpˈsterz/",
-  "cefr": "A1",
-  "topic": "daily",
-  "zh": "在楼上；往楼上"
+  "word": "tenancy",
+  "uk": "/ˈtenənsi/",
+  "us": "/ˈtenənsi/",
+  "cefr": "C1",
+  "topic": "city",
+  "zh": "租赁权；租赁关系"
  },
  {
-  "word": "sunlight",
-  "uk": "/ˈsʌnlaɪt/",
-  "us": "/ˈsʌnlaɪt/",
+  "word": "ancient",
+  "uk": "/ˈeɪnʃənt/",
+  "us": "/ˈeɪnʃənt/",
+  "cefr": "A2",
+  "topic": "history",
+  "zh": "古代的"
+ },
+ {
+  "word": "devote",
+  "uk": "/dɪˈvəʊt/",
+  "us": "/dɪˈvoʊt/",
+  "cefr": "B2",
+  "topic": "work",
+  "zh": "投入；奉献"
+ },
+ {
+  "word": "bet",
+  "uk": "/bet/",
+  "us": "/bet/",
   "cefr": "B1",
-  "topic": "nature",
-  "zh": "阳光；日光"
+  "topic": "daily",
+  "zh": "打赌；押注"
  },
  {
-  "word": "colonel",
-  "uk": "/ˈkɜːnəl/",
-  "us": "/ˈkɝːnəl/",
+  "word": "hockey",
+  "uk": "/ˈhɒki/",
+  "us": "/ˈhɑːki/",
+  "cefr": "A2",
+  "topic": "sport",
+  "zh": "曲棍球；冰球"
+ },
+ {
+  "word": "preserve",
+  "uk": "/prɪˈzɜːv/",
+  "us": "/prɪˈzɝːv/",
+  "cefr": "B2",
+  "topic": "environment",
+  "zh": "保护；保存；维持"
+ },
+ {
+  "word": "amuse",
+  "uk": "/əˈmjuːz/",
+  "us": "/əˈmjuːz/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "逗乐；使发笑"
+ },
+ {
+  "word": "chairwoman",
+  "uk": "/ˈtʃeəˌwʊmən/",
+  "us": "/ˈtʃerˌwʊmən/",
+  "cefr": "B2",
+  "topic": "work",
+  "zh": "女主席；女董事长"
+ },
+ {
+  "word": "precinct",
+  "uk": "/ˈpriːsɪŋkt/",
+  "us": "/ˈpriːsɪŋkt/",
+  "cefr": "C1",
+  "topic": "city",
+  "zh": "步行商业区（英）"
+ },
+ {
+  "word": "surfing",
+  "uk": "/ˈsɜːfɪŋ/",
+  "us": "/ˈsɝːfɪŋ/",
+  "cefr": "A2",
+  "topic": "sport",
+  "zh": "冲浪运动"
+ },
+ {
+  "word": "coloured",
+  "uk": "/ˈkʌləd/",
+  "us": "/ˈkʌlərd/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "有颜色的；着色的"
+ },
+ {
+  "word": "tyranny",
+  "uk": "/ˈtɪrəni/",
+  "us": "/ˈtɪrəni/",
   "cefr": "C1",
   "topic": "government",
-  "zh": "陆军或空军上校"
+  "zh": "暴政；专制统治"
  },
  {
-  "word": "middleman",
-  "uk": "/ˈmɪdlmæn/",
-  "us": "/ˈmɪdlmæn/",
+  "word": "drama",
+  "uk": "/ˈdrɑːmə/",
+  "us": "/ˈdrɑːmə/",
+  "cefr": "A2",
+  "topic": "arts",
+  "zh": "戏剧；戏剧艺术"
+ },
+ {
+  "word": "system",
+  "uk": "/ˈsɪstəm/",
+  "us": "/ˈsɪstəm/",
+  "cefr": "A2",
+  "topic": "technology",
+  "zh": "系统"
+ },
+ {
+  "word": "fireplace",
+  "uk": "/ˈfaɪəpleɪs/",
+  "us": "/ˈfaɪərpleɪs/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "壁炉"
+ },
+ {
+  "word": "cabinet",
+  "uk": "/ˈkæbɪnət/",
+  "us": "/ˈkæbɪnət/",
+  "cefr": "B2",
+  "topic": "daily",
+  "zh": "橱柜；储物柜"
+ },
+ {
+  "word": "backlog",
+  "uk": "/ˈbæklɒɡ/",
+  "us": "/ˈbæklɔːɡ/",
   "cefr": "C1",
-  "topic": "economy",
-  "zh": "中间商；中介人"
+  "topic": "work",
+  "zh": "积压的工作；待处理订单"
  },
  {
-  "word": "undoubtedly",
-  "uk": "/ʌnˈdaʊtɪdli/",
-  "us": "/ʌnˈdaʊtɪdli/",
+  "word": "medium-sized",
+  "uk": "/ˌmiːdiəm ˈsaɪzd/",
+  "us": "/ˌmiːdiəm ˈsaɪzd/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "中等大小的；中型的"
+ },
+ {
+  "word": "pamphlet",
+  "uk": "/ˈpæmflət/",
+  "us": "/ˈpæmflət/",
+  "cefr": "B2",
+  "topic": "media",
+  "zh": "小册子；宣传册"
+ },
+ {
+  "word": "dent",
+  "uk": "/dent/",
+  "us": "/dent/",
+  "cefr": "B2",
+  "topic": "daily",
+  "zh": "凹痕；凹坑"
+ },
+ {
+  "word": "spit",
+  "uk": "/spɪt/",
+  "us": "/spɪt/",
+  "cefr": "B2",
+  "topic": "health",
+  "zh": "吐唾沫；吐出"
+ },
+ {
+  "word": "jury",
+  "uk": "/ˈdʒʊəri/",
+  "us": "/ˈdʒʊri/",
+  "cefr": "B2",
+  "topic": "government",
+  "zh": "陪审团"
+ },
+ {
+  "word": "jam",
+  "uk": "/dʒæm/",
+  "us": "/dʒæm/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "果酱"
+ },
+ {
+  "word": "obtain",
+  "uk": "/əbˈteɪn/",
+  "us": "/əbˈteɪn/",
+  "cefr": "B2",
+  "topic": "work",
+  "zh": "获得；取得"
+ },
+ {
+  "word": "astronomer",
+  "uk": "/əˈstrɒnəmə/",
+  "us": "/əˈstrɑːnəmɚ/",
+  "cefr": "B2",
+  "topic": "science",
+  "zh": "天文学家"
+ },
+ {
+  "word": "jogging",
+  "uk": "/ˈdʒɒɡɪŋ/",
+  "us": "/ˈdʒɑːɡɪŋ/",
+  "cefr": "A2",
+  "topic": "sport",
+  "zh": "慢跑"
+ },
+ {
+  "word": "time-consuming",
+  "uk": "/ˈtaɪm kənˌsjuːmɪŋ/",
+  "us": "/ˈtaɪm kənˌsuːmɪŋ/",
+  "cefr": "B2",
+  "topic": "work",
+  "zh": "耗时的"
+ },
+ {
+  "word": "tourism",
+  "uk": "/ˈtʊərɪzəm/",
+  "us": "/ˈtʊrɪzəm/",
+  "cefr": "A2",
+  "topic": "travel",
+  "zh": "旅游业；观光旅游"
+ },
+ {
+  "word": "textbook",
+  "uk": "/ˈtekstbʊk/",
+  "us": "/ˈtekstbʊk/",
+  "cefr": "A2",
+  "topic": "education",
+  "zh": "教科书；课本"
+ },
+ {
+  "word": "anymore",
+  "uk": "/ˌeniˈmɔː/",
+  "us": "/ˌeniˈmɔːr/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "再也（不）；（不）再"
+ },
+ {
+  "word": "weakness",
+  "uk": "/ˈwiːknəs/",
+  "us": "/ˈwiːknəs/",
   "cefr": "B2",
   "topic": "thinking",
-  "zh": "无疑；毫无疑问地"
+  "zh": "弱点；不足"
  },
  {
-  "word": "plumb",
-  "uk": "/plʌm/",
-  "us": "/plʌm/",
-  "cefr": "C2",
+  "word": "minus",
+  "uk": "/ˈmaɪnəs/",
+  "us": "/ˈmaɪnəs/",
+  "cefr": "B1",
+  "topic": "education",
+  "zh": "减去；扣除"
+ },
+ {
+  "word": "picture",
+  "uk": "/ˈpɪktʃə/",
+  "us": "/ˈpɪktʃər/",
+  "cefr": "A1",
+  "topic": "arts",
+  "zh": "图片；图画；照片"
+ },
+ {
+  "word": "Asia",
+  "uk": "/ˈeɪʒə/",
+  "us": "/ˈeɪʒə/",
+  "cefr": "A1",
+  "topic": "travel",
+  "zh": "亚洲"
+ },
+ {
+  "word": "canoeing",
+  "uk": "/kəˈnuːɪŋ/",
+  "us": "/kəˈnuːɪŋ/",
+  "cefr": "B1",
+  "topic": "sport",
+  "zh": "划独木舟运动"
+ },
+ {
+  "word": "fold",
+  "uk": "/fəʊld/",
+  "us": "/foʊld/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "折叠；对折"
+ },
+ {
+  "word": "proximity",
+  "uk": "/prɒkˈsɪməti/",
+  "us": "/prɑːkˈsɪməti/",
+  "cefr": "C1",
+  "topic": "city",
+  "zh": "邻近；接近"
+ },
+ {
+  "word": "stupid",
+  "uk": "/ˈstjuːpɪd/",
+  "us": "/ˈstuːpɪd/",
+  "cefr": "A2",
   "topic": "thinking",
-  "zh": "探究；深入查明"
+  "zh": "愚蠢的；欠考虑的"
  },
  {
-  "word": "noxious",
-  "uk": "/ˈnɒkʃəs/",
-  "us": "/ˈnɑːkʃəs/",
+  "word": "module",
+  "uk": "/ˈmɒdjuːl/",
+  "us": "/ˈmɑːdʒuːl/",
+  "cefr": "B2",
+  "topic": "education",
+  "zh": "课程单元；模块"
+ },
+ {
+  "word": "fatigue",
+  "uk": "/fəˈtiːɡ/",
+  "us": "/fəˈtiːɡ/",
+  "cefr": "C1",
+  "topic": "health",
+  "zh": "疲劳；疲乏"
+ },
+ {
+  "word": "glorious",
+  "uk": "/ˈɡlɔːriəs/",
+  "us": "/ˈɡlɔːriəs/",
+  "cefr": "B2",
+  "topic": "history",
+  "zh": "辉煌的；光荣的"
+ },
+ {
+  "word": "lasting",
+  "uk": "/ˈlɑːstɪŋ/",
+  "us": "/ˈlæstɪŋ/",
+  "cefr": "B2",
+  "topic": "daily",
+  "zh": "持久的；长久的"
+ },
+ {
+  "word": "react",
+  "uk": "/riˈækt/",
+  "us": "/riˈækt/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "作出反应；回应"
+ },
+ {
+  "word": "domestic",
+  "uk": "/dəˈmestɪk/",
+  "us": "/dəˈmestɪk/",
+  "cefr": "B2",
+  "topic": "economy",
+  "zh": "国内的"
+ },
+ {
+  "word": "terminable",
+  "uk": "/ˈtɜːmɪnəbəl/",
+  "us": "/ˈtɝːmɪnəbəl/",
   "cefr": "C2",
-  "topic": "environment",
-  "zh": "有害的；有毒的"
+  "topic": "work",
+  "zh": "可终止的"
  },
  {
-  "word": "Saturday",
-  "uk": "/ˈsætədeɪ/",
-  "us": "/ˈsætərdeɪ/",
+  "word": "pear",
+  "uk": "/peə/",
+  "us": "/per/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "梨"
+ },
+ {
+  "word": "thigh",
+  "uk": "/θaɪ/",
+  "us": "/θaɪ/",
+  "cefr": "B2",
+  "topic": "health",
+  "zh": "大腿"
+ },
+ {
+  "word": "text",
+  "uk": "/tekst/",
+  "us": "/tekst/",
+  "cefr": "A2",
+  "topic": "media",
+  "zh": "文字；文本"
+ },
+ {
+  "word": "hectare",
+  "uk": "/ˈhekteə/",
+  "us": "/ˈhekter/",
+  "cefr": "C1",
+  "topic": "environment",
+  "zh": "公顷"
+ },
+ {
+  "word": "razor",
+  "uk": "/ˈreɪzə/",
+  "us": "/ˈreɪzər/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "剃须刀；剃刀"
+ },
+ {
+  "word": "realm",
+  "uk": "/relm/",
+  "us": "/relm/",
+  "cefr": "C1",
+  "topic": "thinking",
+  "zh": "领域；范围"
+ },
+ {
+  "word": "angle",
+  "uk": "/ˈæŋɡəl/",
+  "us": "/ˈæŋɡəl/",
+  "cefr": "B2",
+  "topic": "thinking",
+  "zh": "角；角度"
+ },
+ {
+  "word": "clam",
+  "uk": "/klæm/",
+  "us": "/klæm/",
+  "cefr": "C1",
+  "topic": "nature",
+  "zh": "蛤蜊；蛤"
+ },
+ {
+  "word": "imitate",
+  "uk": "/ˈɪmɪteɪt/",
+  "us": "/ˈɪmɪteɪt/",
+  "cefr": "B2",
+  "topic": "daily",
+  "zh": "模仿；仿效"
+ },
+ {
+  "word": "murmur",
+  "uk": "/ˈmɜːmə/",
+  "us": "/ˈmɝːmɚ/",
+  "cefr": "C2",
+  "topic": "daily",
+  "zh": "低声说；喃喃道"
+ },
+ {
+  "word": "lad",
+  "uk": "/læd/",
+  "us": "/læd/",
+  "cefr": "B2",
+  "topic": "society",
+  "zh": "男孩；小伙子"
+ },
+ {
+  "word": "quiet",
+  "uk": "/ˈkwaɪət/",
+  "us": "/ˈkwaɪət/",
   "cefr": "A1",
   "topic": "daily",
-  "zh": "星期六"
+  "zh": "安静的；轻声的"
  },
  {
-  "word": "overcast",
-  "uk": "/ˌəʊvəˈkɑːst/",
-  "us": "/ˈoʊvərkæst/",
-  "cefr": "B2",
-  "topic": "nature",
-  "zh": "阴天的；乌云密布的"
- },
- {
-  "word": "goat",
-  "uk": "/ɡəʊt/",
-  "us": "/ɡoʊt/",
-  "cefr": "A2",
-  "topic": "nature",
-  "zh": "山羊"
- },
- {
-  "word": "greet",
-  "uk": "/ɡriːt/",
-  "us": "/ɡriːt/",
-  "cefr": "B1",
-  "topic": "daily",
-  "zh": "迎接；问候"
- },
- {
-  "word": "depart",
-  "uk": "/dɪˈpɑːt/",
-  "us": "/dɪˈpɑːrt/",
-  "cefr": "B1",
-  "topic": "travel",
-  "zh": "离开；出发"
- },
- {
-  "word": "engaged",
-  "uk": "/ɪnˈɡeɪdʒd/",
-  "us": "/ɪnˈɡeɪdʒd/",
-  "cefr": "B1",
+  "word": "tactful",
+  "uk": "/ˈtæktfəl/",
+  "us": "/ˈtæktfəl/",
+  "cefr": "C1",
   "topic": "society",
-  "zh": "已订婚的"
+  "zh": "得体的；圆通的"
  },
  {
-  "word": "necessarily",
-  "uk": "/ˈnesəsərɪli/",
-  "us": "/ˌnesəˈserəli/",
-  "cefr": "B1",
-  "topic": "thinking",
-  "zh": "必然地；一定"
- },
- {
-  "word": "format",
-  "uk": "/ˈfɔːmæt/",
-  "us": "/ˈfɔːrmæt/",
+  "word": "broaden",
+  "uk": "/ˈbrɔːdən/",
+  "us": "/ˈbrɔːdən/",
   "cefr": "B2",
-  "topic": "technology",
-  "zh": "格式；编排方式"
+  "topic": "education",
+  "zh": "拓宽；扩大"
  },
  {
-  "word": "paste",
-  "uk": "/peɪst/",
-  "us": "/peɪst/",
+  "word": "exhibit",
+  "uk": "/ɪɡˈzɪbɪt/",
+  "us": "/ɪɡˈzɪbɪt/",
+  "cefr": "B2",
+  "topic": "arts",
+  "zh": "展出；展览"
+ },
+ {
+  "word": "heavily",
+  "uk": "/ˈhevɪli/",
+  "us": "/ˈhevɪli/",
   "cefr": "B1",
   "topic": "daily",
-  "zh": "糊状物；浆糊"
+  "zh": "大量地；很大程度上"
  },
  {
-  "word": "anxiety",
-  "uk": "/æŋˈzaɪəti/",
-  "us": "/æŋˈzaɪəti/",
+  "word": "invaluable",
+  "uk": "/ɪnˈvæljuəbl/",
+  "us": "/ɪnˈvæljuəbl/",
+  "cefr": "C1",
+  "topic": "work",
+  "zh": "极有用的；极宝贵的"
+ },
+ {
+  "word": "bestseller",
+  "uk": "/ˌbestˈselə/",
+  "us": "/ˌbestˈselər/",
+  "cefr": "B2",
+  "topic": "arts",
+  "zh": "畅销书；畅销商品"
+ },
+ {
+  "word": "cupboard",
+  "uk": "/ˈkʌbəd/",
+  "us": "/ˈkʌbɚd/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "橱柜；壁橱"
+ },
+ {
+  "word": "kerosene",
+  "uk": "/ˈkerəsiːn/",
+  "us": "/ˈkerəsiːn/",
+  "cefr": "C1",
+  "topic": "daily",
+  "zh": "煤油"
+ },
+ {
+  "word": "onset",
+  "uk": "/ˈɒnset/",
+  "us": "/ˈɑːnset/",
+  "cefr": "C1",
+  "topic": "health",
+  "zh": "开始；发作"
+ },
+ {
+  "word": "starting",
+  "uk": "/ˈstɑːtɪŋ/",
+  "us": "/ˈstɑːrtɪŋ/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "起始的；最初的"
+ },
+ {
+  "word": "clarify",
+  "uk": "/ˈklærɪfaɪ/",
+  "us": "/ˈklerəfaɪ/",
+  "cefr": "B2",
+  "topic": "education",
+  "zh": "澄清；阐明"
+ },
+ {
+  "word": "chunk",
+  "uk": "/tʃʌŋk/",
+  "us": "/tʃʌŋk/",
+  "cefr": "B2",
+  "topic": "daily",
+  "zh": "大块；厚块"
+ },
+ {
+  "word": "reject",
+  "uk": "/rɪˈdʒekt/",
+  "us": "/rɪˈdʒekt/",
+  "cefr": "B2",
+  "topic": "work",
+  "zh": "拒绝接受；否决"
+ },
+ {
+  "word": "competition",
+  "uk": "/ˌkɒmpəˈtɪʃən/",
+  "us": "/ˌkɑːmpəˈtɪʃən/",
+  "cefr": "A2",
+  "topic": "society",
+  "zh": "竞争"
+ },
+ {
+  "word": "skincare",
+  "uk": "/ˈskɪnkeə/",
+  "us": "/ˈskɪnker/",
+  "cefr": "B2",
+  "topic": "health",
+  "zh": "护肤；皮肤护理"
+ },
+ {
+  "word": "depress",
+  "uk": "/dɪˈpres/",
+  "us": "/dɪˈpres/",
   "cefr": "B2",
   "topic": "emotion",
-  "zh": "焦虑；担忧"
+  "zh": "使沮丧；使消沉"
  },
  {
-  "word": "audience",
-  "uk": "/ˈɔːdiəns/",
-  "us": "/ˈɑːdiəns/",
+  "word": "flashlight",
+  "uk": "/ˈflæʃlaɪt/",
+  "us": "/ˈflæʃlaɪt/",
+  "cefr": "B1",
+  "topic": "daily",
+  "zh": "手电筒"
+ },
+ {
+  "word": "past-due",
+  "uk": "/ˌpɑːst ˈdjuː/",
+  "us": "/ˌpæst ˈduː/",
+  "cefr": "B2",
+  "topic": "economy",
+  "zh": "逾期未付的"
+ },
+ {
+  "word": "cottage",
+  "uk": "/ˈkɒtɪdʒ/",
+  "us": "/ˈkɑːtɪdʒ/",
+  "cefr": "B1",
+  "topic": "travel",
+  "zh": "乡间小屋；村舍"
+ },
+ {
+  "word": "tack",
+  "uk": "/tæk/",
+  "us": "/tæk/",
+  "cefr": "C1",
+  "topic": "daily",
+  "zh": "大头短钉"
+ },
+ {
+  "word": "royal",
+  "uk": "/ˈrɔɪəl/",
+  "us": "/ˈrɔɪəl/",
+  "cefr": "B1",
+  "topic": "society",
+  "zh": "王室的；国王或女王的"
+ },
+ {
+  "word": "research",
+  "uk": "/rɪˈsɜːtʃ/",
+  "us": "/ˈriːsɝːtʃ/",
+  "cefr": "B1",
+  "topic": "science",
+  "zh": "研究；调查"
+ },
+ {
+  "word": "extreme",
+  "uk": "/ɪkˈstriːm/",
+  "us": "/ɪkˈstriːm/",
+  "cefr": "B2",
+  "topic": "environment",
+  "zh": "极度的；极端的"
+ },
+ {
+  "word": "precaution",
+  "uk": "/prɪˈkɔːʃən/",
+  "us": "/prɪˈkɔːʃən/",
+  "cefr": "B2",
+  "topic": "health",
+  "zh": "预防措施；防范措施"
+ },
+ {
+  "word": "announce",
+  "uk": "/əˈnaʊns/",
+  "us": "/əˈnaʊns/",
   "cefr": "B1",
   "topic": "media",
-  "zh": "观众；听众"
+  "zh": "宣布；公布"
  },
  {
-  "word": "dust",
-  "uk": "/dʌst/",
-  "us": "/dʌst/",
-  "cefr": "B1",
-  "topic": "daily",
-  "zh": "灰尘；尘土"
- },
- {
-  "word": "alpine",
-  "uk": "/ˈælpaɪn/",
-  "us": "/ˈælpaɪn/",
-  "cefr": "C1",
-  "topic": "nature",
-  "zh": "高山的；阿尔卑斯山的"
- },
- {
-  "word": "milkman",
-  "uk": "/ˈmɪlkmən/",
-  "us": "/ˈmɪlkmən/",
-  "cefr": "A2",
-  "topic": "work",
-  "zh": "送奶工"
- },
- {
-  "word": "disorder",
-  "uk": "/dɪsˈɔːdə/",
-  "us": "/dɪsˈɔːrdər/",
+  "word": "follow-up",
+  "uk": "/ˈfɒləʊ ʌp/",
+  "us": "/ˈfɑːloʊ ʌp/",
   "cefr": "B2",
   "topic": "health",
-  "zh": "疾病；身心失调"
+  "zh": "后续行动；跟进"
  },
  {
-  "word": "stump",
-  "uk": "/stʌmp/",
-  "us": "/stʌmp/",
-  "cefr": "B2",
-  "topic": "nature",
-  "zh": "树桩；残余根部"
- },
- {
-  "word": "wild",
-  "uk": "/waɪld/",
-  "us": "/waɪld/",
-  "cefr": "A2",
-  "topic": "nature",
-  "zh": "野生的；野长的"
- },
- {
-  "word": "assertion",
-  "uk": "/əˈsɜːʃən/",
-  "us": "/əˈsɝːʃən/",
+  "word": "indispensable",
+  "uk": "/ˌɪndɪˈspensəbəl/",
+  "us": "/ˌɪndɪˈspensəbəl/",
   "cefr": "C1",
-  "topic": "thinking",
-  "zh": "断言；明确主张"
+  "topic": "daily",
+  "zh": "不可或缺的；必需的"
  },
  {
-  "word": "pimple",
-  "uk": "/ˈpɪmpəl/",
-  "us": "/ˈpɪmpəl/",
-  "cefr": "B2",
+  "word": "mania",
+  "uk": "/ˈmeɪniə/",
+  "us": "/ˈmeɪniə/",
+  "cefr": "C1",
   "topic": "health",
-  "zh": "粉刺；丘疹"
+  "zh": "狂热；痴迷"
  },
  {
-  "word": "alphabet",
-  "uk": "/ˈælfəbet/",
-  "us": "/ˈælfəbet/",
-  "cefr": "A1",
-  "topic": "education",
-  "zh": "字母表"
- },
- {
-  "word": "sauce",
-  "uk": "/sɔːs/",
-  "us": "/sɔːs/",
-  "cefr": "A2",
+  "word": "tolerable",
+  "uk": "/ˈtɒlərəbl/",
+  "us": "/ˈtɑːlərəbl/",
+  "cefr": "C1",
   "topic": "daily",
-  "zh": "酱；调味汁"
+  "zh": "可忍受的"
  },
  {
-  "word": "occasional",
-  "uk": "/əˈkeɪʒənəl/",
-  "us": "/əˈkeɪʒənəl/",
-  "cefr": "B2",
-  "topic": "daily",
-  "zh": "偶尔的；不经常的"
- },
- {
-  "word": "snow",
-  "uk": "/snəʊ/",
-  "us": "/snoʊ/",
-  "cefr": "A1",
-  "topic": "nature",
-  "zh": "雪；积雪"
- },
- {
-  "word": "profess",
-  "uk": "/prəˈfes/",
-  "us": "/prəˈfes/",
-  "cefr": "C2",
-  "topic": "society",
-  "zh": "声称；公开宣称"
- },
- {
-  "word": "social",
-  "uk": "/ˈsəʊʃəl/",
-  "us": "/ˈsoʊʃəl/",
-  "cefr": "A2",
-  "topic": "society",
-  "zh": "社会的"
- },
- {
-  "word": "stranding",
-  "uk": "/ˈstrændɪŋ/",
-  "us": "/ˈstrændɪŋ/",
+  "word": "brood",
+  "uk": "/bruːd/",
+  "us": "/bruːd/",
   "cefr": "C1",
   "topic": "nature",
-  "zh": "搁浅事件"
+  "zh": "一窝幼鸟"
  },
  {
-  "word": "electrician",
-  "uk": "/ɪˌlekˈtrɪʃən/",
-  "us": "/ɪˌlekˈtrɪʃən/",
+  "word": "cutlery",
+  "uk": "/ˈkʌtləri/",
+  "us": "/ˈkʌtləri/",
   "cefr": "B1",
-  "topic": "work",
-  "zh": "电工；电气技师"
+  "topic": "daily",
+  "zh": "刀叉匙等餐具"
  },
  {
-  "word": "relieved",
-  "uk": "/rɪˈliːvd/",
-  "us": "/rɪˈliːvd/",
-  "cefr": "B2",
+  "word": "mailbox",
+  "uk": "/ˈmeɪlbɒks/",
+  "us": "/ˈmeɪlbɑːks/",
+  "cefr": "A2",
+  "topic": "daily",
+  "zh": "信箱；邮筒"
+ },
+ {
+  "word": "frightening",
+  "uk": "/ˈfraɪtənɪŋ/",
+  "us": "/ˈfraɪtənɪŋ/",
+  "cefr": "B1",
   "topic": "emotion",
-  "zh": "宽慰的；放心的"
+  "zh": "令人害怕的；骇人的"
  },
  {
-  "word": "babysitter",
-  "uk": "/ˈbeɪbisɪtə/",
-  "us": "/ˈbeɪbisɪtər/",
+  "word": "strength",
+  "uk": "/streŋθ/",
+  "us": "/streŋθ/",
   "cefr": "B1",
-  "topic": "daily",
-  "zh": "临时照看孩子的人"
+  "topic": "health",
+  "zh": "力气；力量"
  },
  {
-  "word": "baron",
-  "uk": "/ˈbærən/",
-  "us": "/ˈbærən/",
+  "word": "recapture",
+  "uk": "/ˌriːˈkæptʃə/",
+  "us": "/ˌriːˈkæptʃər/",
+  "cefr": "C1",
+  "topic": "daily",
+  "zh": "重新捕获；夺回"
+ },
+ {
+  "word": "rich",
+  "uk": "/rɪtʃ/",
+  "us": "/rɪtʃ/",
+  "cefr": "A1",
+  "topic": "economy",
+  "zh": "富有的；富裕的"
+ },
+ {
+  "word": "chronology",
+  "uk": "/krəˈnɒlədʒi/",
+  "us": "/krəˈnɑːlədʒi/",
   "cefr": "C1",
   "topic": "history",
-  "zh": "男爵"
+  "zh": "事件的时间顺序；年表"
  },
  {
-  "word": "financier",
-  "uk": "/faɪˈnænsiə/",
-  "us": "/ˌfɪnənˈsɪr/",
+  "word": "philosophical",
+  "uk": "/ˌfɪləˈsɒfɪkəl/",
+  "us": "/ˌfɪləˈsɑːfɪkəl/",
   "cefr": "C1",
-  "topic": "economy",
-  "zh": "金融家；融资者"
+  "topic": "thinking",
+  "zh": "哲学的；哲学上的"
  },
  {
-  "word": "submit",
-  "uk": "/səbˈmɪt/",
-  "us": "/səbˈmɪt/",
-  "cefr": "B1",
-  "topic": "work",
-  "zh": "提交；呈递"
- },
- {
-  "word": "bin",
-  "uk": "/bɪn/",
-  "us": "/bɪn/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "垃圾桶；储物箱"
- },
- {
-  "word": "colour",
-  "uk": "/ˈkʌlə/",
-  "us": "/ˈkʌlər/",
-  "cefr": "A1",
-  "topic": "daily",
-  "zh": "颜色；色彩"
- },
- {
-  "word": "chemistry",
-  "uk": "/ˈkemɪstri/",
-  "us": "/ˈkemɪstri/",
-  "cefr": "A2",
-  "topic": "science",
-  "zh": "化学"
- },
- {
-  "word": "jerk",
-  "uk": "/dʒɜːk/",
-  "us": "/dʒɝːk/",
+  "word": "violation",
+  "uk": "/ˌvaɪəˈleɪʃən/",
+  "us": "/ˌvaɪəˈleɪʃən/",
   "cefr": "B2",
-  "topic": "daily",
-  "zh": "猛拉；猛地移动"
- },
- {
-  "word": "endeavor",
-  "uk": "/ɪnˈdevə/",
-  "us": "/ɪnˈdevər/",
-  "cefr": "C1",
-  "topic": "work",
-  "zh": "努力；尽力"
- },
- {
-  "word": "rock",
-  "uk": "/rɒk/",
-  "us": "/rɑːk/",
-  "cefr": "A2",
-  "topic": "nature",
-  "zh": "岩石；石块"
- },
- {
-  "word": "swim",
-  "uk": "/swɪm/",
-  "us": "/swɪm/",
-  "cefr": "A1",
-  "topic": "sport",
-  "zh": "游泳；游过"
- },
- {
-  "word": "variant",
-  "uk": "/ˈveəriənt/",
-  "us": "/ˈveriənt/",
-  "cefr": "C1",
-  "topic": "science",
-  "zh": "变体；变种"
- },
- {
-  "word": "headquarters",
-  "uk": "/ˌhedˈkwɔːtəz/",
-  "us": "/ˈhedˌkwɔːrtərz/",
-  "cefr": "B2",
-  "topic": "work",
-  "zh": "总部；指挥部"
- },
- {
-  "word": "franchise",
-  "uk": "/ˈfræntʃaɪz/",
-  "us": "/ˈfræntʃaɪz/",
-  "cefr": "C1",
-  "topic": "economy",
-  "zh": "特许经营权；加盟店"
- },
- {
-  "word": "policeman",
-  "uk": "/pəˈliːsmən/",
-  "us": "/pəˈliːsmən/",
-  "cefr": "A1",
-  "topic": "society",
-  "zh": "男警察"
- },
- {
-  "word": "reticent",
-  "uk": "/ˈretɪsənt/",
-  "us": "/ˈretɪsənt/",
-  "cefr": "C1",
-  "topic": "society",
-  "zh": "寡言的；不愿透露的"
- },
- {
-  "word": "maximum",
-  "uk": "/ˈmæksɪməm/",
-  "us": "/ˈmæksɪməm/",
-  "cefr": "B1",
-  "topic": "science",
-  "zh": "最大的；最多的；最高的"
- },
- {
-  "word": "bleak",
-  "uk": "/bliːk/",
-  "us": "/bliːk/",
-  "cefr": "C1",
-  "topic": "emotion",
-  "zh": "黯淡的；无望的"
- },
- {
-  "word": "reef",
-  "uk": "/riːf/",
-  "us": "/riːf/",
-  "cefr": "B2",
-  "topic": "environment",
-  "zh": "礁；暗礁"
- },
- {
-  "word": "hurry",
-  "uk": "/ˈhʌri/",
-  "us": "/ˈhɜːri/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "赶紧；催促"
- },
- {
-  "word": "cease",
-  "uk": "/siːs/",
-  "us": "/siːs/",
-  "cefr": "C1",
-  "topic": "work",
-  "zh": "停止；终止"
- },
- {
-  "word": "animal",
-  "uk": "/ˈænɪməl/",
-  "us": "/ˈænɪməl/",
-  "cefr": "A1",
-  "topic": "nature",
-  "zh": "动物"
- },
- {
-  "word": "consonant",
-  "uk": "/ˈkɒnsənənt/",
-  "us": "/ˈkɑːnsənənt/",
-  "cefr": "B2",
-  "topic": "education",
-  "zh": "辅音；辅音字母"
- },
- {
-  "word": "hospital",
-  "uk": "/ˈhɒspɪtl/",
-  "us": "/ˈhɑːspɪtl/",
-  "cefr": "A1",
-  "topic": "health",
-  "zh": "医院"
- },
- {
-  "word": "oppose",
-  "uk": "/əˈpəʊz/",
-  "us": "/əˈpoʊz/",
-  "cefr": "B2",
-  "topic": "society",
-  "zh": "反对；抵制"
- },
- {
-  "word": "tiredness",
-  "uk": "/ˈtaɪədnəs/",
-  "us": "/ˈtaɪərdnəs/",
-  "cefr": "B1",
-  "topic": "health",
-  "zh": "疲劳；疲倦"
- },
- {
-  "word": "useful",
-  "uk": "/ˈjuːsfəl/",
-  "us": "/ˈjuːsfəl/",
-  "cefr": "A1",
-  "topic": "daily",
-  "zh": "有用的；有帮助的"
- },
- {
-  "word": "metallurgy",
-  "uk": "/məˈtælədʒi/",
-  "us": "/ˈmetəlɜːrdʒi/",
-  "cefr": "C2",
-  "topic": "science",
-  "zh": "冶金学；冶金技术"
- },
- {
-  "word": "specialize",
-  "uk": "/ˈspeʃəlaɪz/",
-  "us": "/ˈspeʃəlaɪz/",
-  "cefr": "B2",
-  "topic": "work",
-  "zh": "专门从事；专攻"
- },
- {
-  "word": "licence",
-  "uk": "/ˈlaɪsəns/",
-  "us": "/ˈlaɪsəns/",
-  "cefr": "B1",
   "topic": "government",
-  "zh": "许可证；执照"
+  "zh": "违反；违背"
  },
  {
-  "word": "foresee",
-  "uk": "/fɔːˈsiː/",
-  "us": "/fɔːrˈsiː/",
-  "cefr": "B2",
-  "topic": "thinking",
-  "zh": "预见；预料"
- },
- {
-  "word": "agreeable",
-  "uk": "/əˈɡriːəbəl/",
-  "us": "/əˈɡriːəbəl/",
-  "cefr": "B2",
+  "word": "embarrass",
+  "uk": "/ɪmˈbærəs/",
+  "us": "/ɪmˈbærəs/",
+  "cefr": "B1",
   "topic": "emotion",
-  "zh": "令人愉快的；宜人的"
+  "zh": "使尴尬；使窘迫"
  },
  {
-  "word": "perverse",
-  "uk": "/pəˈvɜːs/",
-  "us": "/pɚˈvɝːs/",
-  "cefr": "C2",
-  "topic": "thinking",
-  "zh": "故意作对的；悖理的"
- },
- {
-  "word": "cooker",
-  "uk": "/ˈkʊkə/",
-  "us": "/ˈkʊkər/",
-  "cefr": "A2",
-  "topic": "daily",
-  "zh": "炉灶；炊具"
- },
- {
-  "word": "job",
-  "uk": "/dʒɒb/",
-  "us": "/dʒɑːb/",
-  "cefr": "A1",
-  "topic": "work",
-  "zh": "工作；职位"
- },
- {
-  "word": "numb",
-  "uk": "/nʌm/",
-  "us": "/nʌm/",
-  "cefr": "B2",
-  "topic": "health",
-  "zh": "麻木的；失去知觉的"
- },
- {
-  "word": "droop",
-  "uk": "/druːp/",
-  "us": "/druːp/",
+  "word": "coeducation",
+  "uk": "/ˌkəʊedʒʊˈkeɪʃən/",
+  "us": "/ˌkoʊedʒəˈkeɪʃən/",
   "cefr": "C1",
+  "topic": "education",
+  "zh": "男女同校教育"
+ },
+ {
+  "word": "catch",
+  "uk": "/kætʃ/",
+  "us": "/kætʃ/",
+  "cefr": "A1",
+  "topic": "daily",
+  "zh": "接住；抓住"
+ },
+ {
+  "word": "habitual",
+  "uk": "/həˈbɪtʃuəl/",
+  "us": "/həˈbɪtʃuəl/",
+  "cefr": "C1",
+  "topic": "daily",
+  "zh": "惯常的；习惯性的"
+ },
+ {
+  "word": "protection",
+  "uk": "/prəˈtekʃən/",
+  "us": "/prəˈtekʃən/",
+  "cefr": "B1",
+  "topic": "environment",
+  "zh": "保护；防护"
+ },
+ {
+  "word": "vex",
+  "uk": "/veks/",
+  "us": "/veks/",
+  "cefr": "C2",
+  "topic": "emotion",
+  "zh": "使烦恼；使恼怒"
+ },
+ {
+  "word": "peak",
+  "uk": "/piːk/",
+  "us": "/piːk/",
+  "cefr": "B2",
   "topic": "nature",
-  "zh": "下垂；低垂"
+  "zh": "顶峰；山峰；最高点"
  },
  {
-  "word": "marketing",
-  "uk": "/ˈmɑːkɪtɪŋ/",
-  "us": "/ˈmɑːrkɪtɪŋ/",
-  "cefr": "B2",
-  "topic": "work",
-  "zh": "市场营销"
- },
- {
-  "word": "complicate",
-  "uk": "/ˈkɒmplɪkeɪt/",
-  "us": "/ˈkɑːmplɪkeɪt/",
-  "cefr": "B2",
-  "topic": "thinking",
-  "zh": "使复杂化；使更难处理"
+  "word": "generation",
+  "uk": "/ˌdʒenəˈreɪʃən/",
+  "us": "/ˌdʒenəˈreɪʃən/",
+  "cefr": "B1",
+  "topic": "society",
+  "zh": "一代人；一代"
  }
 ]
