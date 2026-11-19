@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="color-scheme" content="only light" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>开源数据集图鉴 · Open Data Atlas</title>
+<meta name="description" content="抖音视频里 5 个 GitHub 高质量开源数据集：唐代宋词、雅思词库、健身动作、国家城市、The Well 物理模拟。已落地为可查询的 SQLite 数据仓库。" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🗂️</text></svg>" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">🗂️</div>
+      <div>
+        <h1>开源数据集图鉴</h1>
+        <p class="sub">5 个 GitHub 高质量开源数据集 · 223,784 行真实数据 · 一个可查询的 SQLite 数据仓库</p>
+      </div>
+    </div>
+    <div class="stats">
+      <div><b>223,784</b><span>入库行数</span></div>
+      <div><b>5</b><span>数据集</span></div>
+      <div><b>46.8 MB</b><span>数据库体积</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel">
+    <div class="panel-head">
+      <h2>① 五个数据集</h2>
+      <p>顺序即抖音视频里的出场顺序；「视频时间」是我抽帧确认的位置。仓库链接直达上游。</p>
+    </div>
+    <div class="cards" id="cards"><div class="loading">加载中…</div></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>② 数据长什么样（真实样本）</h2>
+      <p>下面是从数据库里随机抽的样本。要跑 SQL、翻全部 22 万行，在本机启动：<code>start-atlas.cmd</code>。</p>
+    </div>
+    <div class="chips" id="previewTabs"></div>
+    <div class="table-wrap"><table id="previewTable"></table></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>③ 三条能直接抄的 SQL</h2>
+      <p>这些查询在本地 SQL 控制台里都能跑（15 道带答案的练习见 <a href="./sql-practice.html">SQL 练习</a>）。</p>
+    </div>
+    <pre class="codeblock"><code>-- 宋词里谁写得最多
+SELECT author, COUNT(*) c FROM poetry_ci GROUP BY author ORDER BY c DESC LIMIT 5;
+
+-- 一个词的释义 + 例句（三表 JOIN）
+SELECT w.word, s.zh, e.en
+FROM words w
+JOIN words_senses s   ON s.word_id = w.word_id AND s.idx = 0
+JOIN words_examples e ON e.word_id = w.word_id AND e.idx = 0
+WHERE w.word = 'library';
+
+-- 人口最多的 10 个国家
+SELECT name, population FROM geo_countries ORDER BY population DESC LIMIT 10;</code></pre>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>④ 本地跑起来</h2>
+      <p>站点是静态的；真正的数据库和图鉴应用在仓库里，三个命令即可。</p>
+    </div>
+    <pre class="codeblock"><code>python scripts/fetch_data.py   # 拉数据（约 51MB，断点续传 + sha256 校验）
+python scripts/build_db.py     # 建库（data/atlas.sqlite，12 张表）
+python scripts/serve.py        # 起服务 → http://127.0.0.1:8790</code></pre>
+    <p class="footnote">Windows 下双击 <code>start-atlas.cmd</code> / <code>stop-atlas.cmd</code> 即可。
+    只读边界：数据库以 <code>mode=ro</code> 打开，只允许 SELECT/WITH/EXPLAIN，结果上限 500 行。</p>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑤ 出处、许可证与校验</h2>
+      <p>每个文件的 git sha 与 sha256 都在 <code>data/manifest.json</code>；验收脚本会全量比对。</p>
+    </div>
+    <div class="table-wrap"><table id="sourceTable"></table></div>
+    <p class="footnote">许可证各不相同（MIT / CC BY 4.0 / ODbL-1.0 / BSD-3-Clause / 仓库 NOTICE），详见 <a href="./licenses.html">许可证说明</a>。</p>
+  </section>
+</main>
+
+<footer class="bottom">
+  <div class="wrap">
+    <span>开源数据集图鉴 · Open Data Atlas · <a href="https://github.com/xushan628/open-data-atlas">源码</a></span>
+    <span>内容来自各上游仓库，遵循其许可证</span>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

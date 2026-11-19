@@ -1,0 +1,951 @@
+{
+  "generated_at": "2026-11-19T02:36:41+00:00",
+  "datasets": {
+    "exercises": {
+      "name": "exercises-dataset 健身动作库",
+      "repo": "hasaneyldrm/exercises-dataset",
+      "repo_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "branch": "main",
+      "stars": 23876,
+      "license": "NOASSERTION",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "homepage": "",
+      "pushed_at": "2026-07-16T06:50:42Z",
+      "video_ts": "00:48",
+      "sample_note": "全量 1,324 个动作（不含 GIF/视频素材）",
+      "license_files": [
+        "NOTICE.md",
+        "LICENSE"
+      ],
+      "bytes": 17395118,
+      "files": [
+        {
+          "path": "LICENSE",
+          "rel": "data/raw/exercises/LICENSE",
+          "sha": "5bd07008eea0578bfa41a51a6e29edfd51a5c073",
+          "bytes": 1993,
+          "sha256": "99230e0c2e74c54386e31e7282fc4d939ca14942df542b706fcd9fa71c3187fa",
+          "fetched_at": "2026-11-19T02:34:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "NOTICE.md",
+          "rel": "data/raw/exercises/NOTICE.md",
+          "sha": "419857375bbb147cf0e32279cc4e923a99aaf5f7",
+          "bytes": 1595,
+          "sha256": "2b078c9ff73670bbcd4503703eb6be624250193b33655948799acc635a11557b",
+          "fetched_at": "2026-11-19T02:34:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "data/exercises.json",
+          "rel": "data/raw/exercises/data/exercises.json",
+          "sha": "3cbb77b678c40d7342897d38e4c61e9502f829a7",
+          "bytes": 17391530,
+          "sha256": "656634224b8977b99a6d765470ee123260d4979715eaa4e7c0b7c8bb0d79f93d",
+          "fetched_at": "2026-11-19T02:35:40+00:00",
+          "skipped": false
+        }
+      ]
+    },
+    "geo": {
+      "name": "countries-states-cities-database",
+      "repo": "dr5hn/countries-states-cities-database",
+      "repo_url": "https://github.com/dr5hn/countries-states-cities-database",
+      "branch": "master",
+      "stars": 10035,
+      "license": "ODbL-1.0",
+      "description": "🌍 Discover our global repository of countries, states, and cities!  🏙️ Get comprehensive data in JSON, SQL, PSQL, SQLSERVER, MONGODB, SQLITE, XML, YAML, and CSV formats. Access ISO2, ISO3 codes, country code, capital, native language, timezones (for countries), and more. #countries #states #cities",
+      "homepage": "http://countrystatecity.in/",
+      "pushed_at": "2026-11-18T15:49:39Z",
+      "video_ts": "01:08",
+      "sample_note": "国家 250 + 州/省 5,000+ + 城市；不取 59MB 的合并大文件与 7.6GB 仓库历史",
+      "license_files": [],
+      "bytes": 11646242,
+      "files": [
+        {
+          "path": "json/countries+cities.json",
+          "rel": "data/raw/geo/json/countries+cities.json",
+          "sha": "cbd0bbb8162ea2e9189c3d53831566da519601e8",
+          "bytes": 4512943,
+          "sha256": "eda12083c43a7d1ec68b4b81dd4f93e08a04746f2aab823fec5ee23abdb939d4",
+          "fetched_at": "2026-11-19T02:35:45+00:00",
+          "skipped": false
+        },
+        {
+          "path": "json/countries.json",
+          "rel": "data/raw/geo/json/countries.json",
+          "sha": "2bf13e77a43de8104364ce71a13103d1f4bf468a",
+          "bytes": 506458,
+          "sha256": "43df689ce9303665de103f0643b2b633adb1dca8320bf49db5d1df4b30c3a182",
+          "fetched_at": "2026-11-19T02:35:44+00:00",
+          "skipped": false
+        },
+        {
+          "path": "json/states.json",
+          "rel": "data/raw/geo/json/states.json",
+          "sha": "ffa3bce99dd9fd4ab8c1bb123a1d77921229c796",
+          "bytes": 6626841,
+          "sha256": "9ff8201f31e374ba2a1173cd3203d45fc72a365d87e446d3c66ea9d90bda34c7",
+          "fetched_at": "2026-11-19T02:35:49+00:00",
+          "skipped": false
+        }
+      ]
+    },
+    "thewell": {
+      "name": "The Well 物理模拟数据集",
+      "repo": "PolymathicAI/the_well",
+      "repo_url": "https://github.com/PolymathicAI/the_well",
+      "branch": "master",
+      "stars": 4582,
+      "license": "BSD-3-Clause",
+      "description": "A 15TB Collection of Physics Simulation Datasets",
+      "homepage": "https://polymathic-ai.org/the_well/",
+      "pushed_at": "2026-10-19T03:30:16Z",
+      "video_ts": "01:32",
+      "sample_note": "15TB 本体在 Hugging Face，仓库里只取 26 个数据集的元数据(yaml)与说明",
+      "license_files": [],
+      "bytes": 39967,
+      "files": [
+        {
+          "path": "README.md",
+          "rel": "data/raw/thewell/README.md",
+          "sha": "94194ccc9808ba6d4d5f292aa245edd77ac95035",
+          "bytes": 8878,
+          "sha256": "d1a68b0b408e253f29df453217a98492fc1425836ad1556258a2a518f03f245a",
+          "fetched_at": "2026-11-19T02:35:59+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/MHD_256/MHD_256.yaml",
+          "rel": "data/raw/thewell/datasets/MHD_256/MHD_256.yaml",
+          "sha": "7207c47b24ef6ab099e8d5e90100f14dfeaa0da6",
+          "bytes": 544,
+          "sha256": "8f3a1a344f80ca802e4de41f45363da1ce2323bf55f58f6adc279ab5351af611",
+          "fetched_at": "2026-11-19T02:35:51+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/MHD_256/stats.yaml",
+          "rel": "data/raw/thewell/datasets/MHD_256/stats.yaml",
+          "sha": "8a6bf4cb47a632fbe1c8d2cdbd701ba0b7a5d13e",
+          "bytes": 904,
+          "sha256": "36be7b9e308c7eae589ae566ac0142da333b25026bf6945c32660cfdf66cd636",
+          "fetched_at": "2026-11-19T02:35:51+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/MHD_64/MHD_64.yaml",
+          "rel": "data/raw/thewell/datasets/MHD_64/MHD_64.yaml",
+          "sha": "18f6dc2f856229e2b642287c61a6d9f6259f334c",
+          "bytes": 540,
+          "sha256": "5865d01f574570ab6f05fd9dd33fd21b6843c717c2286e1859e66ac6b482c100",
+          "fetched_at": "2026-11-19T02:35:51+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/MHD_64/stats.yaml",
+          "rel": "data/raw/thewell/datasets/MHD_64/stats.yaml",
+          "sha": "9077ea9b1c2da647fd8c01e42d542501018b01e4",
+          "bytes": 903,
+          "sha256": "642e4741585e7011618b85132213050dbedc48a33541acd61d0b550c790baae5",
+          "fetched_at": "2026-11-19T02:35:52+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_discontinuous/acoustic_scattering_discontinuous.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_discontinuous/acoustic_scattering_discontinuous.yaml",
+          "sha": "164949bbc99c852122ac0fc2927d68dd0e0251f1",
+          "bytes": 434,
+          "sha256": "b5967348ed259cacd112624779e63a6700aab084e704fbf646e95ff328a15b79",
+          "fetched_at": "2026-11-19T02:35:52+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_discontinuous/stats.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_discontinuous/stats.yaml",
+          "sha": "3928c13d903bddb19c7fedb6e58932273c4a9116",
+          "bytes": 594,
+          "sha256": "977ebabb451412ba01bd836751735f599bc46a098f685e13e7a9cf601419dd54",
+          "fetched_at": "2026-11-19T02:35:52+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_inclusions/acoustic_scattering_inclusions.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_inclusions/acoustic_scattering_inclusions.yaml",
+          "sha": "880cc09a76e1b943aa70108c60a498398f98c529",
+          "bytes": 455,
+          "sha256": "c407c06554755c4d7c593eb8c767c946ca76f019049f6607e0972e3926bb91d0",
+          "fetched_at": "2026-11-19T02:35:52+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_inclusions/stats.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_inclusions/stats.yaml",
+          "sha": "e7e0b17ad96561f8c670766a32a4d261f801d79f",
+          "bytes": 594,
+          "sha256": "aa09a7784d8aced154f8060e09a0febd9da550416b195f735dc966d24afb7fd9",
+          "fetched_at": "2026-11-19T02:35:52+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_maze/acoustic_scattering_maze.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_maze/acoustic_scattering_maze.yaml",
+          "sha": "ca22f56134678a022dc2db9faf7bc2c06ad2a17a",
+          "bytes": 425,
+          "sha256": "0b55479b2ac5eed67c8a20a82d546da0319e475e38efa5da00361725d770b2df",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/acoustic_scattering_maze/stats.yaml",
+          "rel": "data/raw/thewell/datasets/acoustic_scattering_maze/stats.yaml",
+          "sha": "5aff5789e681bf61a14fd0e8fabc742cfb96c6b1",
+          "bytes": 594,
+          "sha256": "adc273a0139c5d06b874a5477b2f6eb83ac52a69d159dc67506360752f44031a",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/active_matter/active_matter.yaml",
+          "rel": "data/raw/thewell/datasets/active_matter/active_matter.yaml",
+          "sha": "320161c4eeb8f05df4a07bfb4a55bda1ff6b2674",
+          "bytes": 594,
+          "sha256": "c7d94294ed01abd545a3cb1812ae6609ea28a179abdb2a39863504d132dc33bc",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/active_matter/stats.yaml",
+          "rel": "data/raw/thewell/datasets/active_matter/stats.yaml",
+          "sha": "c9ce58fe18116ae61740401403d6fb2dc841b957",
+          "bytes": 1354,
+          "sha256": "d4b6105a613ba83e0794a3c6e55450b5a3d2631c657348f50d69146b901b0c1d",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/convective_envelope_rsg/convective_envelope_rsg.yaml",
+          "rel": "data/raw/thewell/datasets/convective_envelope_rsg/convective_envelope_rsg.yaml",
+          "sha": "94a23dd7be2245fb8a2ef101aed4bf316ace51af",
+          "bytes": 456,
+          "sha256": "c4080f7fe74e7aa2f93af6f691d45fe1156795e16313b1b51b6b60e7cacdf74d",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/convective_envelope_rsg/stats.yaml",
+          "rel": "data/raw/thewell/datasets/convective_envelope_rsg/stats.yaml",
+          "sha": "c289ed74a41909789982ca36e8b47e70aca9ffb4",
+          "bytes": 796,
+          "sha256": "c7f001b0d9f480bb715df96f24786f56f9d1de5779ba9c666de24307628a1935",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/euler_multi_quadrants_openBC/euler_multi_quadrants_openBC.yaml",
+          "rel": "data/raw/thewell/datasets/euler_multi_quadrants_openBC/euler_multi_quadrants_openBC.yaml",
+          "sha": "af875b44177edeb34c878be6cdd1b6277a7b9806",
+          "bytes": 509,
+          "sha256": "02a0ad2fa75b3439d71a159b8dcf66d5b8ffc28a01956afbb9440f9beacf3bee",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/euler_multi_quadrants_openBC/stats.yaml",
+          "rel": "data/raw/thewell/datasets/euler_multi_quadrants_openBC/stats.yaml",
+          "sha": "f21c243cafe031fa3babcebdf45dfd53dc5dfa33",
+          "bytes": 703,
+          "sha256": "7f1fa9559eb55c1ab9a5baa149fd2296ac50e3d99675b925fa06d633beee2ae0",
+          "fetched_at": "2026-11-19T02:35:53+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/euler_multi_quadrants_periodicBC/euler_multi_quadrants_periodicBC.yaml",
+          "rel": "data/raw/thewell/datasets/euler_multi_quadrants_periodicBC/euler_multi_quadrants_periodicBC.yaml",
+          "sha": "ad47c846ab99b6d644a135ca39003d89f9d6ef9b",
+          "bytes": 517,
+          "sha256": "09f8d88ba284f733a70735eb06414da08439a573b4565d09b1218aa7419ab376",
+          "fetched_at": "2026-11-19T02:35:54+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/euler_multi_quadrants_periodicBC/stats.yaml",
+          "rel": "data/raw/thewell/datasets/euler_multi_quadrants_periodicBC/stats.yaml",
+          "sha": "a4dd348d8d30259378e561463c63cf3bb46fbecc",
+          "bytes": 700,
+          "sha256": "16e0438e8c7405d808539e5270b96939823ce52011c569f59049fcd570575624",
+          "fetched_at": "2026-11-19T02:35:54+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/gray_scott_reaction_diffusion/gray_scott_reaction_diffusion.yaml",
+          "rel": "data/raw/thewell/datasets/gray_scott_reaction_diffusion/gray_scott_reaction_diffusion.yaml",
+          "sha": "27de15ecc1de1a92b3d9b4d95ee7842740a096c4",
+          "bytes": 424,
+          "sha256": "4be917339c9c9688fa39cd4526e8c287ce44cad4f3bf1bec152b1fdd5c2dc685",
+          "fetched_at": "2026-11-19T02:35:54+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/gray_scott_reaction_diffusion/stats.yaml",
+          "rel": "data/raw/thewell/datasets/gray_scott_reaction_diffusion/stats.yaml",
+          "sha": "c47f811575955502625d7db5a9c5ad2e4b0d6bb5",
+          "bytes": 243,
+          "sha256": "49a3bdbf67825d1af31356080744076c890c032f41d36c19f88b01869907c051",
+          "fetched_at": "2026-11-19T02:35:54+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/helmholtz_staircase/helmholtz_staircase.yaml",
+          "rel": "data/raw/thewell/datasets/helmholtz_staircase/helmholtz_staircase.yaml",
+          "sha": "f6bfac967c3b889884eaedd7453963b233bc5935",
+          "bytes": 517,
+          "sha256": "7732f67dc9d9a126489915f2c0df1e020629694aedc9d560ef7d2dcfa753db0b",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/helmholtz_staircase/stats.yaml",
+          "rel": "data/raw/thewell/datasets/helmholtz_staircase/stats.yaml",
+          "sha": "4f7926e66ea31272fde20eed0669a5388e1d81fc",
+          "bytes": 419,
+          "sha256": "d8ca1b6d70b044fdfb279e386ef8bcd80ce5888340938c4560874760ffc0210d",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/planetswe/planetswe.yaml",
+          "rel": "data/raw/thewell/datasets/planetswe/planetswe.yaml",
+          "sha": "88ec3a7e55c0e57aa0b709c9337c518d5fc4b797",
+          "bytes": 501,
+          "sha256": "ad33e873e61cbb41188e5115b6ae216d25956e876f1c5e977dc6bf08c80f6aee",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/planetswe/stats.yaml",
+          "rel": "data/raw/thewell/datasets/planetswe/stats.yaml",
+          "sha": "8086a9d0a0cd3a1303bacc731b7126aeffe52b0e",
+          "bytes": 431,
+          "sha256": "ace421d34268a3b96fd19885c7ed64ee96ea996e938b774f6bacbbd88471c29f",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/post_neutron_star_merger/post_neutron_star_merger.yaml",
+          "rel": "data/raw/thewell/datasets/post_neutron_star_merger/post_neutron_star_merger.yaml",
+          "sha": "7d0c96b71382ea7ac61c25af587fce9008ed31f7",
+          "bytes": 572,
+          "sha256": "2a6e9fd08f5db468f85803b28e7c40b559010272a720230e377d45f49ee144e2",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/post_neutron_star_merger/stats.yaml",
+          "rel": "data/raw/thewell/datasets/post_neutron_star_merger/stats.yaml",
+          "sha": "315756ad50f699623c3ec60075746a089cd51f63",
+          "bytes": 1713,
+          "sha256": "f612ec3815681a4ba921dbd0cbd89ef6ec8c071cb49fc9021c775b28bc3a08e6",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_benard/rayleigh_benard.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_benard/rayleigh_benard.yaml",
+          "sha": "b3ede22c2fa61018cc416b5179134d6ad2c6503f",
+          "bytes": 750,
+          "sha256": "89556c8599176f565815b48f4c956de0377cef5e0fa66b6c191d70b41ae2dd82",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_benard/stats.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_benard/stats.yaml",
+          "sha": "efe5beb9574c0ac5937de17d6a047674b23f33da",
+          "bytes": 579,
+          "sha256": "5785f305979e5a123bb17abb2512dd5ac0919329b5a20392bcf8b8403b7f6359",
+          "fetched_at": "2026-11-19T02:35:55+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_benard_uniform/rayleigh_benard_uniform.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_benard_uniform/rayleigh_benard_uniform.yaml",
+          "sha": "b3ede22c2fa61018cc416b5179134d6ad2c6503f",
+          "bytes": 750,
+          "sha256": "89556c8599176f565815b48f4c956de0377cef5e0fa66b6c191d70b41ae2dd82",
+          "fetched_at": "2026-11-19T02:35:56+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_benard_uniform/stats.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_benard_uniform/stats.yaml",
+          "sha": "3ae4e75f284462fcc41c5e79ae09996e9994dc7c",
+          "bytes": 580,
+          "sha256": "d68d5a9124e5434ad69fa7dd7c6960f1c67d0b15efd4d6a5e720448e74f35fde",
+          "fetched_at": "2026-11-19T02:35:56+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_taylor_instability/rayleigh_taylor_instability.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_taylor_instability/rayleigh_taylor_instability.yaml",
+          "sha": "b2db13563c650652d319cd989e13cfe9bc1c8da1",
+          "bytes": 452,
+          "sha256": "c91f0476e4820545c3946715ab9d58d2baf32cc57aee2bd1e4a5c3e9c184193a",
+          "fetched_at": "2026-11-19T02:35:56+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/rayleigh_taylor_instability/stats.yaml",
+          "rel": "data/raw/thewell/datasets/rayleigh_taylor_instability/stats.yaml",
+          "sha": "e12cea5164df2d6e0a82e7a02c348140be379566",
+          "bytes": 531,
+          "sha256": "d2e1d9cebbd3bd5c363ea9a0ac20d71ef24988dfd010ecc68ef7eee03dd462a6",
+          "fetched_at": "2026-11-19T02:35:56+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/shear_flow/shear_flow.yaml",
+          "rel": "data/raw/thewell/datasets/shear_flow/shear_flow.yaml",
+          "sha": "e97d482dbb8170ea7d2f0b129251dcc69ea6e2a5",
+          "bytes": 694,
+          "sha256": "98911eb41c6cbfae02d8caff1a4fc28eb86d72f1620e3a2f6cecffccb2a8d00a",
+          "fetched_at": "2026-11-19T02:35:56+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/shear_flow/stats.yaml",
+          "rel": "data/raw/thewell/datasets/shear_flow/stats.yaml",
+          "sha": "1aaf849f89bb524a61d6853531a391e3a0dfac98",
+          "bytes": 571,
+          "sha256": "4efd36b0554f0abbf0a60c800202d4ccbf3db76f691d93efe0f3681e6116af1e",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/supernova_explosion_128/stats.yaml",
+          "rel": "data/raw/thewell/datasets/supernova_explosion_128/stats.yaml",
+          "sha": "0c1b16915f6ec924bd4e401f49f6f466074acc64",
+          "bytes": 821,
+          "sha256": "f40f641ae6cec4306109dd3e32468f1de70eee453d0efe1c6b8830d2006d0ced",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/supernova_explosion_128/supernova_explosion_128.yaml",
+          "rel": "data/raw/thewell/datasets/supernova_explosion_128/supernova_explosion_128.yaml",
+          "sha": "58533aba9d7b2c2ca8bcb97ae7f63b24b742af4a",
+          "bytes": 548,
+          "sha256": "166aeb8516202f10e2740662373bfd3449146f3f6cd10156cbd3378d052cab6d",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/supernova_explosion_64/stats.yaml",
+          "rel": "data/raw/thewell/datasets/supernova_explosion_64/stats.yaml",
+          "sha": "4c5cfcbe3a9995546d304b422a70c91f3d5a61b8",
+          "bytes": 820,
+          "sha256": "c4260727acf176c318248b16773cdc555489daf6551197bf808d5fe2f8b167dc",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/supernova_explosion_64/supernova_explosion_64.yaml",
+          "rel": "data/raw/thewell/datasets/supernova_explosion_64/supernova_explosion_64.yaml",
+          "sha": "df71f051c7d78c0c1b0d58c7e01f59efc7b5982c",
+          "bytes": 761,
+          "sha256": "06780d00000412d57c6172d6aaf2788af3e183ac478c779a25439a335512a7c7",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulence_gravity_cooling/stats.yaml",
+          "rel": "data/raw/thewell/datasets/turbulence_gravity_cooling/stats.yaml",
+          "sha": "35e35fdd15e6efb57565cec0be5566878dc70fed",
+          "bytes": 825,
+          "sha256": "b2b4bda9d7cfbe6b36d2a779c490209008380bb0f04d97a6f48588167c34bf20",
+          "fetched_at": "2026-11-19T02:35:57+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulence_gravity_cooling/turbulence_gravity_cooling.yaml",
+          "rel": "data/raw/thewell/datasets/turbulence_gravity_cooling/turbulence_gravity_cooling.yaml",
+          "sha": "b06d2732bcdc3fe8943f4b744c9239a3b642212b",
+          "bytes": 698,
+          "sha256": "a8ac147d101f6e8ae6fc4a124a9c30fac7b066da9344c0dd1e989cb97ab1138d",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulent_radiative_layer_2D/stats.yaml",
+          "rel": "data/raw/thewell/datasets/turbulent_radiative_layer_2D/stats.yaml",
+          "sha": "7a90dad93e247f69d1c408991f6bdb70614b63d6",
+          "bytes": 576,
+          "sha256": "f57e18d856ca566b2f5bc63d0aaceca08359503e9d556b1453f9b0372b62e444",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulent_radiative_layer_2D/turbulent_radiative_layer_2D.yaml",
+          "rel": "data/raw/thewell/datasets/turbulent_radiative_layer_2D/turbulent_radiative_layer_2D.yaml",
+          "sha": "a4569237f63b2f573464432d636868a1f184c356",
+          "bytes": 488,
+          "sha256": "60f768b6adbdfc9a1c660f7a44d52b69a9c7c7ae37c5efb3d9d286b535d81fce",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulent_radiative_layer_3D/stats.yaml",
+          "rel": "data/raw/thewell/datasets/turbulent_radiative_layer_3D/stats.yaml",
+          "sha": "24264ecc135b5ca000faf5f690047aa56479e44f",
+          "bytes": 668,
+          "sha256": "7d7b109a0c75289597e8b663246b909be9a8f600f5a4c2ccf855fa2204be0a98",
+          "fetched_at": "2026-11-19T02:35:59+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/turbulent_radiative_layer_3D/turbulent_radiative_layer_3D.yaml",
+          "rel": "data/raw/thewell/datasets/turbulent_radiative_layer_3D/turbulent_radiative_layer_3D.yaml",
+          "sha": "179a75a2438bbb1bed8b503d1b3544aaf1dcda9a",
+          "bytes": 509,
+          "sha256": "3d7e97449f6c76386c3e78d401f3e93d6c73f6847f131fbb3fe500752400f8eb",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/viscoelastic_instability/stats.yaml",
+          "rel": "data/raw/thewell/datasets/viscoelastic_instability/stats.yaml",
+          "sha": "48b9fc1590370ceaaed8b803644b2618658b9c70",
+          "bytes": 1002,
+          "sha256": "2071ce394484e7fa082867458c16249b18e473fa6190e30c4aa096888803d506",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/viscoelastic_instability/viscoelastic_instability.yaml",
+          "rel": "data/raw/thewell/datasets/viscoelastic_instability/viscoelastic_instability.yaml",
+          "sha": "4c163bf1d36302880ff675a3fbf025175b55d35c",
+          "bytes": 513,
+          "sha256": "08dcc4010d6b7b9b99490adf2a5b833d6054f29740bb1200c682a044582d6f88",
+          "fetched_at": "2026-11-19T02:35:58+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/viscoelastic_instability_v2/stats.yaml",
+          "rel": "data/raw/thewell/datasets/viscoelastic_instability_v2/stats.yaml",
+          "sha": "28030da58a75535cabd0afd136d2dfd7a1437077",
+          "bytes": 1001,
+          "sha256": "4b66fdfa9a1f0228189c43d3e27d905fa55b449a8de50414e50aa8c6ac4f9957",
+          "fetched_at": "2026-11-19T02:35:59+00:00",
+          "skipped": false
+        },
+        {
+          "path": "datasets/viscoelastic_instability_v2/viscoelastic_instability_v2.yaml",
+          "rel": "data/raw/thewell/datasets/viscoelastic_instability_v2/viscoelastic_instability_v2.yaml",
+          "sha": "885e9795a4669c9d0e1872553c1eca72f93eaf8f",
+          "bytes": 516,
+          "sha256": "bddb8ee61dc9ad1b3c972268b6fa7d78743aac5d104fcd64ea3b1540e549240f",
+          "fetched_at": "2026-11-19T02:35:59+00:00",
+          "skipped": false
+        }
+      ]
+    },
+    "poetry": {
+      "name": "chinese-poetry 中华古典诗歌",
+      "repo": "chinese-poetry/chinese-poetry",
+      "repo_url": "https://github.com/chinese-poetry/chinese-poetry",
+      "branch": "master",
+      "stars": 54466,
+      "license": "MIT",
+      "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+      "homepage": "https://awesome-poetry.top/",
+      "pushed_at": "2026-06-17T01:56:08Z",
+      "video_ts": "00:08",
+      "sample_note": "宋词全量（29 个分片）；全唐诗仅取 12/320 个分片；作者表取唐诗/宋词两份",
+      "license_files": [],
+      "bytes": 15435766,
+      "files": [
+        {
+          "path": "全唐诗/authors.tang.json",
+          "rel": "data/raw/poetry/全唐诗/authors.tang.json",
+          "sha": "7eeadf1bdef7de1a85c8221dfa400925d538ce9b",
+          "bytes": 840110,
+          "sha256": "ebab99f1244b263506d0c0bf1d54495c675f4467d3d91a5b93e89c351b2cc273",
+          "fetched_at": "2026-11-19T02:36:21+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.0.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.0.json",
+          "sha": "6bf7e34b40b86e14edb21ae26c28d13b6c59a0a8",
+          "bytes": 408405,
+          "sha256": "4f88f429938082523cdc72a1612bd7a7c3e3f7a33f8192c61ae51340efc3c92d",
+          "fetched_at": "2026-11-19T02:36:17+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.1000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.1000.json",
+          "sha": "142346bebd42f43c4ea0d2a75c4877c31f5fbebb",
+          "bytes": 477519,
+          "sha256": "6e703b8d8dcedbd6110f6d48d043665ca2131db2035a5bfcef5e59a19aeb6d75",
+          "fetched_at": "2026-11-19T02:36:17+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.10000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.10000.json",
+          "sha": "6bd33e5f4433bc392a4777e472675c309f53efd2",
+          "bytes": 613029,
+          "sha256": "b97d1c5509ab62f5b433dee2020c11c4deda4542e276683d1ada6619c34c2113",
+          "fetched_at": "2026-11-19T02:36:18+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.11000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.11000.json",
+          "sha": "9aba50aa04abbaae646458b5020c8c2f3530e08b",
+          "bytes": 445111,
+          "sha256": "9adf1835246053c821d99af39ce9092e14a94e1baf91740098bd9fc6f6f1cd27",
+          "fetched_at": "2026-11-19T02:36:18+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.12000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.12000.json",
+          "sha": "1830f0d54d12659570be2e22736a691830971174",
+          "bytes": 440019,
+          "sha256": "ec43d055a219d52ecdb58cd30a8a444189392f0d68b92a41495df1c72c5fd095",
+          "fetched_at": "2026-11-19T02:36:18+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.13000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.13000.json",
+          "sha": "c4fa2f95c20af302ab0ec75b4d305ebbc4a626e1",
+          "bytes": 420898,
+          "sha256": "eb9c85072d7913bb972e07c72f0123e9d7addca22cfd833cb79a5d74b1c76ebf",
+          "fetched_at": "2026-11-19T02:36:18+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.14000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.14000.json",
+          "sha": "f1dc24074ca7a375fc807db996a8c5262b97ec71",
+          "bytes": 409199,
+          "sha256": "1e366dd3fb5a011091524bed36e4edff5d015bf0ddb14143f298515387dbd9a9",
+          "fetched_at": "2026-11-19T02:36:19+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.15000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.15000.json",
+          "sha": "2d8e3a016dbd438df70bfa5e1078af8567fa838a",
+          "bytes": 422310,
+          "sha256": "0386e58f46517daa3af0e0f385e0223f1efc0dac53afbe8fea64f99074d870b7",
+          "fetched_at": "2026-11-19T02:36:19+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.16000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.16000.json",
+          "sha": "be7beff20ceb2bfe6f780bf75a1af3fc0b42c865",
+          "bytes": 380057,
+          "sha256": "1c477aef1fc50523f9baf10f29d2d89201a14c4c73001c1c041d0fe8464d11db",
+          "fetched_at": "2026-11-19T02:36:20+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.17000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.17000.json",
+          "sha": "bf6508f4cc7a14f104bb404f3a4f8fd5ab70261d",
+          "bytes": 485658,
+          "sha256": "11bac8333b2042975b9844423d113ff2c6fdf701c8b08a5b3aaa6bc9472222de",
+          "fetched_at": "2026-11-19T02:36:20+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.18000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.18000.json",
+          "sha": "ada715515de6a1a67775579990ada7552708ea26",
+          "bytes": 537556,
+          "sha256": "37543a147d16e3576d5f45ba8f7b8b51fc311bc10eddae9440f16f2d5ae885c2",
+          "fetched_at": "2026-11-19T02:36:20+00:00",
+          "skipped": false
+        },
+        {
+          "path": "全唐诗/poet.tang.19000.json",
+          "rel": "data/raw/poetry/全唐诗/poet.tang.19000.json",
+          "sha": "0bb79d5c7c0fd2ef3fe7c8691e08fe46cd134837",
+          "bytes": 431381,
+          "sha256": "dea74b41bc807ce2527bb119862a251e3a92b6f69bdf9f98b1434a8336830542",
+          "fetched_at": "2026-11-19T02:36:21+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/author.song.json",
+          "rel": "data/raw/poetry/宋词/author.song.json",
+          "sha": "f2cf3feb265ee43eb860e1b8626e5dd12c41fc6c",
+          "bytes": 263100,
+          "sha256": "8ab648c71baf4ef7314a95a2c7947a215ef870c2a2dbac26d4d8c6b79cb7dcfa",
+          "fetched_at": "2026-11-19T02:36:16+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.0.json",
+          "rel": "data/raw/poetry/宋词/ci.song.0.json",
+          "sha": "9d5e71dbc818385ac90fc4e5a73bb1947aeab839",
+          "bytes": 406936,
+          "sha256": "7761bc5ef50305753ea3dcea9e1ef3164e153e3ee366169e9c5a9a7d85b21b22",
+          "fetched_at": "2026-11-19T02:36:08+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.1000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.1000.json",
+          "sha": "c9723ff21a3ea7b2049733d2c5c674a852a9ca5c",
+          "bytes": 368986,
+          "sha256": "5f79a2d9011e6d414f04e51176c5d4f4c762fd784dce98b035968367b6f2ef4e",
+          "fetched_at": "2026-11-19T02:36:09+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.10000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.10000.json",
+          "sha": "c9499fe09d986b1973aa6704c1636383960a6143",
+          "bytes": 401864,
+          "sha256": "8d37b015132bf9776fb41c44d445572d2cd9bf5e250dde213596c480e5962545",
+          "fetched_at": "2026-11-19T02:36:09+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.11000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.11000.json",
+          "sha": "af91c5dc4b90d698bf489f98f9e918748d581359",
+          "bytes": 414634,
+          "sha256": "9a4f5082638f82339afbde99f1af7bae1719207f77d5516cb8f6d370c9c1d0c9",
+          "fetched_at": "2026-11-19T02:36:09+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.12000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.12000.json",
+          "sha": "370a3d6f7a5b764d6ad3e08645d23c2c2bb8375d",
+          "bytes": 417329,
+          "sha256": "a89094fed6b3003c171a9036052ff6a289367b4dd68d97c000b5f5e90ea2df2f",
+          "fetched_at": "2026-11-19T02:36:10+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.13000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.13000.json",
+          "sha": "22c81567b756a827485b99903e9d317a3c14a957",
+          "bytes": 435352,
+          "sha256": "dd51b268dec508d44a18e2d4a84edd109ff8c532b6eace4160ea88674f62515c",
+          "fetched_at": "2026-11-19T02:36:10+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.14000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.14000.json",
+          "sha": "39eb7488f2371d8804bd7841cc862129035a67e3",
+          "bytes": 498986,
+          "sha256": "9d7410bcaebc31685e3d999c6af218a3583fd8e9f57cacf640c66607121e2dbf",
+          "fetched_at": "2026-11-19T02:36:11+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.15000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.15000.json",
+          "sha": "ea7f9c29a0d6555cb61f2713f8dce51069e0fc54",
+          "bytes": 502382,
+          "sha256": "5e441c85494955290138ed8561decb3f302d3628fe390cea3477e1d446039525",
+          "fetched_at": "2026-11-19T02:36:11+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.16000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.16000.json",
+          "sha": "2f6cd18f0a0c931594c7d54d49809525526d3d48",
+          "bytes": 478885,
+          "sha256": "d003d66c58e40fab1d2a40f17f6149eef53a126c7e54b035153ceae4fe707742",
+          "fetched_at": "2026-11-19T02:36:12+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.17000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.17000.json",
+          "sha": "d5a986bce25ad77b6899b4f7ca84e6ce47e65d15",
+          "bytes": 472066,
+          "sha256": "b46b9f908b5bb0a3b4dd18f268c233a50b8b794d6ab1ec79afcb3612792f0574",
+          "fetched_at": "2026-11-19T02:36:12+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.18000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.18000.json",
+          "sha": "bde09664afbbf0de97777c2f0b43212b472803ce",
+          "bytes": 481281,
+          "sha256": "751cf8ee2a925f4957d010e6f4bf46cc9e0a90a176cfb731185ba43ecb72b14b",
+          "fetched_at": "2026-11-19T02:36:12+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.19000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.19000.json",
+          "sha": "665612fdda604d77e16499ae106238e7c6c74ebe",
+          "bytes": 341771,
+          "sha256": "c6becb6a81cc04e25564f501ff768482b6c328d976c48e2003c8b8bd94ef4612",
+          "fetched_at": "2026-11-19T02:36:12+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.2000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.2000.json",
+          "sha": "ebc2ef35a9d1d9ddb0e4e25acb64831ef9695704",
+          "bytes": 389037,
+          "sha256": "f700d8e14df62d371dfba7ce18bf1641c304540907b26b68d356c4b6b256fe8d",
+          "fetched_at": "2026-11-19T02:36:13+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.20000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.20000.json",
+          "sha": "91930556c81a5bca977f50daf3333a7456075263",
+          "bytes": 434930,
+          "sha256": "1dfc08051969ab2ecdfa3eea8b29bf79d3dfe9ad1133127f25f622c2b14348c2",
+          "fetched_at": "2026-11-19T02:36:13+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.2019y.json",
+          "rel": "data/raw/poetry/宋词/ci.song.2019y.json",
+          "sha": "2683f7744ccfb4ad706e55d2d61b6852250b5450",
+          "bytes": 2498,
+          "sha256": "2a7539735776c3f33c952ee0a5422b0f646276c2e36dcd28cbe89a267251e407",
+          "fetched_at": "2026-11-19T02:36:13+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.21000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.21000.json",
+          "sha": "1b5acde750de6dc2801263944009f8dc1811cb55",
+          "bytes": 18904,
+          "sha256": "3344ba453ae7840339944ce29e4295b5b668d79f79210a99e6e1a58ee874dbc5",
+          "fetched_at": "2026-11-19T02:36:13+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.3000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.3000.json",
+          "sha": "81294df318b4ac5dc0e9c43a8c28e1b956ab9aee",
+          "bytes": 417829,
+          "sha256": "1791391a8a2ca855e133f7ea48bf0c104b3890d628ae2929f9378960a66c1427",
+          "fetched_at": "2026-11-19T02:36:14+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.4000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.4000.json",
+          "sha": "232e7aa1a1c5e5de3d43d8fa3cd6c6a14720508b",
+          "bytes": 395848,
+          "sha256": "48c3e33bab920e17929ea08300c4c5ca72b246669ed5767e5cb985d894514150",
+          "fetched_at": "2026-11-19T02:36:15+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.5000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.5000.json",
+          "sha": "57a4c25205301dc7bc0cded24d75e7c3799f2bda",
+          "bytes": 388016,
+          "sha256": "1e10ee4be18e225c2efa0bb8d58691ebb6d40cd83588f308d9635a37392bdadd",
+          "fetched_at": "2026-11-19T02:36:14+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.6000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.6000.json",
+          "sha": "b62ee03b0f4eed639f1b47c50255f1d5e277a6c4",
+          "bytes": 390822,
+          "sha256": "8ff2b21b4e92a435f72da04fcb935a6a3498e839cde5c837ea418871f133c248",
+          "fetched_at": "2026-11-19T02:36:15+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.7000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.7000.json",
+          "sha": "0cc3566bfc912124a43bf25b68ba33d9397ca96d",
+          "bytes": 415095,
+          "sha256": "8fe3f7ac40ab7d6c80cdd42305e848c1dc51cff26bc42b335ddfdfaccd48d1ba",
+          "fetched_at": "2026-11-19T02:36:16+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.8000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.8000.json",
+          "sha": "6a3bd767d1c922bdfefd5b68a35046dcdb26d5e5",
+          "bytes": 390756,
+          "sha256": "8d9c26a4aa62264d2eea853944e47a1420dd94e7465bee7c3e52cec2cf8bd653",
+          "fetched_at": "2026-11-19T02:36:16+00:00",
+          "skipped": false
+        },
+        {
+          "path": "宋词/ci.song.9000.json",
+          "rel": "data/raw/poetry/宋词/ci.song.9000.json",
+          "sha": "b149fd79cad8d67620a5fbccd1265e06616de438",
+          "bytes": 397207,
+          "sha256": "bd6a4d90b17ef195f32e38dfa483b0d39d671db3cdd5b462b292aac6916f26a6",
+          "fetched_at": "2026-11-19T02:36:16+00:00",
+          "skipped": false
+        }
+      ]
+    },
+    "words": {
+      "name": "word-atlas 词光·文字图集",
+      "repo": "designfuchen/word-atlas",
+      "repo_url": "https://github.com/designfuchen/word-atlas",
+      "branch": "main",
+      "stars": 5047,
+      "license": "NOASSERTION",
+      "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "homepage": "https://0xlei.tech/words/",
+      "pushed_at": "2026-11-13T10:36:13Z",
+      "video_ts": "00:25",
+      "sample_note": "全量 7,298 词条（word-atlas.json），代码 MIT / 数据 CC BY 4.0",
+      "license_files": [
+        "CONTENT_LICENSE.md",
+        "LICENSE"
+      ],
+      "bytes": 8103333,
+      "files": [
+        {
+          "path": "CONTENT_LICENSE.md",
+          "rel": "data/raw/words/CONTENT_LICENSE.md",
+          "sha": "f63e21cef3a91256bdfa8ae461e80a6fc5b5956c",
+          "bytes": 2306,
+          "sha256": "af943d13ce868a7e2f38216d4aff08940abe985eae52d2c4beeae7e07654e5e6",
+          "fetched_at": "2026-11-19T02:36:27+00:00",
+          "skipped": true
+        },
+        {
+          "path": "LICENSE",
+          "rel": "data/raw/words/LICENSE",
+          "sha": "d2bcf8aa354825c1e9ac2d51e06c8e6e9b1df316",
+          "bytes": 1299,
+          "sha256": "83d3aff30ac8f86748449ea43c29eb69e6d6baf021a9ae2df1961f5e5f58b0a5",
+          "fetched_at": "2026-11-19T02:36:27+00:00",
+          "skipped": true
+        },
+        {
+          "path": "data/word-atlas.json",
+          "rel": "data/raw/words/data/word-atlas.json",
+          "sha": "2b3ee149764b183d9b05a65f1594af557fb5899f",
+          "bytes": 8099728,
+          "sha256": "e4e3410809047711cd2a25fccafcebb46124ce1eeb98829dc12de0335de71234",
+          "fetched_at": "2026-11-19T02:36:31+00:00",
+          "skipped": true
+        }
+      ]
+    }
+  }
+}

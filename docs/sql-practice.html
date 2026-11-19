@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="color-scheme" content="only light" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SQL 练习 15 题 · 开源数据集图鉴</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">🧪</div>
+      <div>
+        <h1>SQL 练习 15 题</h1>
+        <p class="sub">题库就是图鉴里的真实数据：唐诗宋词、雅思词库、健身动作、国家城市</p>
+      </div>
+    </div>
+    <div><a href="./index.html">← 回图鉴</a></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="page-title">怎么练</h2>
+      <p>
+        在本机启动图鉴（<code>start-atlas.cmd</code>），打开 <code>http://127.0.0.1:8790</code> 的「SQL 控制台」，
+        把这 15 条 SQL 粘进去跑；也可以直接 <code>sqlite3 data/atlas.sqlite</code>。
+        每题都给了参考答案与考点，建议先自己写再看。
+      </p>
+    </div>
+    <p class="footnote">表结构见 <a href="../DATASETS.md">DATASETS.md</a>；数据表清单：poetry_tang / poetry_ci / poetry_authors / words / words_senses / words_examples / words_collocations / ex_exercises / geo_countries / geo_states / geo_cities / well_datasets。</p>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><h2>题目（点开看答案）</h2></div>
+  <details>
+    <summary><span class="q"><span class="no">Q01</span><span>唐诗样本里一共有多少首诗？</span></span></summary>
+    <p class="footnote">考点：COUNT(*)</p>
+    <pre class="codeblock"><code>SELECT COUNT(*) AS 诗数 FROM poetry_tang;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q02</span><span>宋词里作品最多的 5 位作者是谁？各多少首？</span></span></summary>
+    <p class="footnote">考点：GROUP BY + ORDER BY + LIMIT</p>
+    <pre class="codeblock"><code>SELECT author, COUNT(*) AS n FROM poetry_ci GROUP BY author ORDER BY n DESC LIMIT 5;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q03</span><span>唐诗里标题带「月」的诗，取前 8 首</span></span></summary>
+    <p class="footnote">考点：LIKE 模糊匹配</p>
+    <pre class="codeblock"><code>SELECT author, title FROM poetry_tang WHERE title LIKE &#x27;%月%&#x27; LIMIT 8;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q04</span><span>宋词平均每首多少字？（保留 1 位小数）</span></span></summary>
+    <p class="footnote">考点：聚合函数 AVG/MIN/MAX + ROUND</p>
+    <pre class="codeblock"><code>SELECT ROUND(AVG(char_count), 1) AS 平均字数, MIN(char_count) AS 最短, MAX(char_count) AS 最长 FROM poetry_ci;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q05</span><span>出现超过 300 次的词牌有哪些？</span></span></summary>
+    <p class="footnote">考点：HAVING 过滤分组</p>
+    <pre class="codeblock"><code>SELECT rhythmic, COUNT(*) AS n FROM poetry_ci GROUP BY rhythmic HAVING COUNT(*) &gt; 300 ORDER BY n DESC;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q06</span><span>唐诗里最长的一首诗是哪首？多少字？</span></span></summary>
+    <p class="footnote">考点：排序取 Top1</p>
+    <pre class="codeblock"><code>SELECT title, author, char_count FROM poetry_tang ORDER BY char_count DESC LIMIT 1;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q07</span><span>雅思词库里 B2 及以上的词有多少个？</span></span></summary>
+    <p class="footnote">考点：IN + GROUP BY</p>
+    <pre class="codeblock"><code>SELECT cefr, COUNT(*) AS n FROM words WHERE cefr IN (&#x27;B2&#x27;,&#x27;C1&#x27;,&#x27;C2&#x27;) GROUP BY cefr ORDER BY cefr;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q08</span><span>词条 library 的所有释义（按顺序）</span></span></summary>
+    <p class="footnote">考点：按主键/索引列筛选</p>
+    <pre class="codeblock"><code>SELECT idx, pos, zh FROM words_senses WHERE word_id = &#x27;library&#x27; ORDER BY idx;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q09</span><span>三表 JOIN：拿 library 的第一条释义和第一条例句</span></span></summary>
+    <p class="footnote">考点：多表 JOIN + 复合条件</p>
+    <pre class="codeblock"><code>SELECT w.word, s.zh AS 释义, e.en AS 例句 FROM words w JOIN words_senses s ON s.word_id = w.word_id AND s.idx = 0 JOIN words_examples e ON e.word_id = w.word_id AND e.idx = 0 WHERE w.word = &#x27;library&#x27;;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q10</span><span>每个 CEFR 等级的词数占比（%）</span></span></summary>
+    <p class="footnote">考点：子查询做分母</p>
+    <pre class="codeblock"><code>SELECT cefr, COUNT(*) AS n, ROUND(100.0 * COUNT(*) / (SELECT COUNT(*) FROM words), 1) AS pct FROM words GROUP BY cefr ORDER BY cefr;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q11</span><span>带 public 的固定搭配有哪些？</span></span></summary>
+    <p class="footnote">考点：子表 LIKE</p>
+    <pre class="codeblock"><code>SELECT word_id, collocation, zh FROM words_collocations WHERE collocation LIKE &#x27;%public%&#x27; LIMIT 10;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q12</span><span>按身体部位统计动作数，只看超过 100 个的部位</span></span></summary>
+    <p class="footnote">考点：HAVING + 阈值</p>
+    <pre class="codeblock"><code>SELECT body_part, COUNT(*) AS n FROM ex_exercises GROUP BY body_part HAVING COUNT(*) &gt;= 100 ORDER BY n DESC;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q13</span><span>不需要器材、目标肌群是腹肌的动作有哪些？</span></span></summary>
+    <p class="footnote">考点：多条件 AND</p>
+    <pre class="codeblock"><code>SELECT name, category, target FROM ex_exercises WHERE equipment = &#x27;body weight&#x27; AND target LIKE &#x27;%abs%&#x27; LIMIT 10;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q14</span><span>人口最多的 10 个国家，并算每平方公里多少人</span></span></summary>
+    <p class="footnote">考点：算术表达式 + 别名</p>
+    <pre class="codeblock"><code>SELECT name, population, area_sq_km, ROUND(population / area_sq_km, 1) AS 人口密度 FROM geo_countries WHERE area_sq_km &gt; 0 ORDER BY population DESC LIMIT 10;</code></pre>
+  </details>
+  <details>
+    <summary><span class="q"><span class="no">Q15</span><span>中国一共有多少座城市入库？</span></span></summary>
+    <p class="footnote">考点：按国家名统计</p>
+    <pre class="codeblock"><code>SELECT COUNT(*) AS 城市数 FROM geo_cities WHERE country_name = &#x27;China&#x27;;</code></pre>
+  </details>
+  </section>
+</main>
+<footer class="bottom">
+  <div class="wrap">
+    <span>开源数据集图鉴 · SQL 练习</span>
+    <span>答案均已在 <code>data/atlas.sqlite</code> 上验证可执行</span>
+  </div>
+</footer>
+</body>
+</html>

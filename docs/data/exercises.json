@@ -1,0 +1,362 @@
+[
+ {
+  "name": "cable standing rear delt row (with rope)",
+  "category": "shoulders",
+  "equipment": "cable",
+  "target": "delts"
+ },
+ {
+  "name": "dumbbell lying external shoulder rotation",
+  "category": "shoulders",
+  "equipment": "dumbbell",
+  "target": "delts"
+ },
+ {
+  "name": "dumbbell fly",
+  "category": "chest",
+  "equipment": "dumbbell",
+  "target": "pectorals"
+ },
+ {
+  "name": "assisted hanging knee raise",
+  "category": "waist",
+  "equipment": "assisted",
+  "target": "abs"
+ },
+ {
+  "name": "band one arm single leg split squat",
+  "category": "upper legs",
+  "equipment": "band",
+  "target": "quads"
+ },
+ {
+  "name": "dumbbell one arm seated neutral wrist curl",
+  "category": "lower arms",
+  "equipment": "dumbbell",
+  "target": "forearms"
+ },
+ {
+  "name": "dumbbell one arm incline chest press",
+  "category": "chest",
+  "equipment": "dumbbell",
+  "target": "pectorals"
+ },
+ {
+  "name": "short stride run",
+  "category": "cardio",
+  "equipment": "body weight",
+  "target": "cardiovascular system"
+ },
+ {
+  "name": "stationary bike walk",
+  "category": "cardio",
+  "equipment": "leverage machine",
+  "target": "cardiovascular system"
+ },
+ {
+  "name": "arm slingers hanging bent knee legs",
+  "category": "waist",
+  "equipment": "body weight",
+  "target": "abs"
+ },
+ {
+  "name": "lying leg-hip raise",
+  "category": "waist",
+  "equipment": "body weight",
+  "target": "abs"
+ },
+ {
+  "name": "dumbbell one arm reverse fly (with support)",
+  "category": "shoulders",
+  "equipment": "dumbbell",
+  "target": "delts"
+ },
+ {
+  "name": "lying (side) quads stretch",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "target": "quads"
+ },
+ {
+  "name": "dead bug",
+  "category": "waist",
+  "equipment": "body weight",
+  "target": "abs"
+ },
+ {
+  "name": "bench pull-ups",
+  "category": "back",
+  "equipment": "body weight",
+  "target": "lats"
+ },
+ {
+  "name": "side lying floor stretch",
+  "category": "back",
+  "equipment": "body weight",
+  "target": "lats"
+ },
+ {
+  "name": "triceps press",
+  "category": "upper arms",
+  "equipment": "body weight",
+  "target": "triceps"
+ },
+ {
+  "name": "cable rope elevated seated row",
+  "category": "back",
+  "equipment": "cable",
+  "target": "upper back"
+ },
+ {
+  "name": "cable upper chest crossovers",
+  "category": "chest",
+  "equipment": "cable",
+  "target": "pectorals"
+ },
+ {
+  "name": "straddle maltese",
+  "category": "waist",
+  "equipment": "body weight",
+  "target": "abs"
+ },
+ {
+  "name": "monster walk",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "target": "glutes"
+ },
+ {
+  "name": "lever bicep curl",
+  "category": "upper arms",
+  "equipment": "leverage machine",
+  "target": "biceps"
+ },
+ {
+  "name": "sled one leg calf press on leg press",
+  "category": "lower legs",
+  "equipment": "sled machine",
+  "target": "calves"
+ },
+ {
+  "name": "medicine ball close grip push up",
+  "category": "upper arms",
+  "equipment": "medicine ball",
+  "target": "triceps"
+ },
+ {
+  "name": "cable standing cross-over high reverse fly",
+  "category": "shoulders",
+  "equipment": "cable",
+  "target": "delts"
+ },
+ {
+  "name": "dumbbell lying pullover on exercise ball",
+  "category": "chest",
+  "equipment": "dumbbell",
+  "target": "pectorals"
+ },
+ {
+  "name": "cable rear delt row (with rope)",
+  "category": "shoulders",
+  "equipment": "cable",
+  "target": "delts"
+ },
+ {
+  "name": "balance board",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "target": "quads"
+ },
+ {
+  "name": "stability ball crunch (full range hands behind head)",
+  "category": "waist",
+  "equipment": "stability ball",
+  "target": "abs"
+ },
+ {
+  "name": "ez barbell incline triceps extension",
+  "category": "upper arms",
+  "equipment": "ez barbell",
+  "target": "triceps"
+ },
+ {
+  "name": "potty squat with support",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "target": "glutes"
+ },
+ {
+  "name": "exercise ball on the wall calf raise (tennis ball between ankles)",
+  "category": "lower legs",
+  "equipment": "dumbbell",
+  "target": "calves"
+ },
+ {
+  "name": "smith single leg split squat",
+  "category": "upper legs",
+  "equipment": "smith machine",
+  "target": "quads"
+ },
+ {
+  "name": "dumbbell tate press",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "triceps"
+ },
+ {
+  "name": "dumbbell kickback",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "triceps"
+ },
+ {
+  "name": "smith seated one leg calf raise",
+  "category": "lower legs",
+  "equipment": "smith machine",
+  "target": "calves"
+ },
+ {
+  "name": "dumbbell lying hammer press",
+  "category": "chest",
+  "equipment": "dumbbell",
+  "target": "pectorals"
+ },
+ {
+  "name": "suspended abdominal fallout",
+  "category": "waist",
+  "equipment": "body weight",
+  "target": "abs"
+ },
+ {
+  "name": "lever seated hip abduction",
+  "category": "upper legs",
+  "equipment": "leverage machine",
+  "target": "abductors"
+ },
+ {
+  "name": "hack calf raise",
+  "category": "lower legs",
+  "equipment": "sled machine",
+  "target": "calves"
+ },
+ {
+  "name": "dumbbell seated bench extension",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "triceps"
+ },
+ {
+  "name": "roller body saw",
+  "category": "waist",
+  "equipment": "roller",
+  "target": "abs"
+ },
+ {
+  "name": "medicine ball supine chest throw",
+  "category": "upper arms",
+  "equipment": "medicine ball",
+  "target": "triceps"
+ },
+ {
+  "name": "bench hip extension",
+  "category": "upper legs",
+  "equipment": "body weight",
+  "target": "glutes"
+ },
+ {
+  "name": "exercise ball back extension with rotation",
+  "category": "back",
+  "equipment": "stability ball",
+  "target": "spine"
+ },
+ {
+  "name": "chest dip (on dip-pull-up cage)",
+  "category": "chest",
+  "equipment": "body weight",
+  "target": "pectorals"
+ },
+ {
+  "name": "dumbbell alternate hammer preacher curl",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "biceps"
+ },
+ {
+  "name": "assisted seated pectoralis major stretch with stability ball",
+  "category": "chest",
+  "equipment": "assisted",
+  "target": "pectorals"
+ },
+ {
+  "name": "cable side bend crunch (bosu ball)",
+  "category": "waist",
+  "equipment": "cable",
+  "target": "abs"
+ },
+ {
+  "name": "dumbbell one arm reverse spider curl",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "biceps"
+ },
+ {
+  "name": "barbell biceps curl (with arm blaster)",
+  "category": "upper arms",
+  "equipment": "barbell",
+  "target": "biceps"
+ },
+ {
+  "name": "kettlebell bent press",
+  "category": "waist",
+  "equipment": "kettlebell",
+  "target": "abs"
+ },
+ {
+  "name": "sled lying calf press",
+  "category": "lower legs",
+  "equipment": "sled machine",
+  "target": "calves"
+ },
+ {
+  "name": "dumbbell w-press",
+  "category": "shoulders",
+  "equipment": "dumbbell",
+  "target": "delts"
+ },
+ {
+  "name": "cable reverse-grip pushdown",
+  "category": "upper arms",
+  "equipment": "cable",
+  "target": "triceps"
+ },
+ {
+  "name": "barbell seated good morning",
+  "category": "upper legs",
+  "equipment": "barbell",
+  "target": "glutes"
+ },
+ {
+  "name": "lever seated leg curl",
+  "category": "upper legs",
+  "equipment": "leverage machine",
+  "target": "hamstrings"
+ },
+ {
+  "name": "dumbbell incline hammer curl",
+  "category": "upper arms",
+  "equipment": "dumbbell",
+  "target": "biceps"
+ },
+ {
+  "name": "weighted overhead crunch (on stability ball)",
+  "category": "waist",
+  "equipment": "weighted",
+  "target": "abs"
+ },
+ {
+  "name": "dumbbell straight arm pullover",
+  "category": "chest",
+  "equipment": "dumbbell",
+  "target": "pectorals"
+ }
+]

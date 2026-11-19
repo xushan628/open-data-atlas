@@ -1,0 +1,12 @@
+# 运行产物 / 大文件：不进 Git
+data/raw/
+data/atlas.sqlite
+data/atlas.sqlite-wal
+data/atlas.sqlite-shm
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 说明：data/manifest.json 与 data/samples/ 是要发布的，别忽略。

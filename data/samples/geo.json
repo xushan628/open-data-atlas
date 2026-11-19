@@ -1,0 +1,482 @@
+[
+ {
+  "city": "Chaponost",
+  "country": "France"
+ },
+ {
+  "city": "Odintsovo",
+  "country": "Russia"
+ },
+ {
+  "city": "Otaslavice",
+  "country": "Czech Republic"
+ },
+ {
+  "city": "Tasböget",
+  "country": "Kazakhstan"
+ },
+ {
+  "city": "Wafangdian",
+  "country": "China"
+ },
+ {
+  "city": "Richmond Hill",
+  "country": "Canada"
+ },
+ {
+  "city": "Guarani",
+  "country": "Brazil"
+ },
+ {
+  "city": "Leava",
+  "country": "Wallis and Futuna Islands"
+ },
+ {
+  "city": "Mêdog",
+  "country": "China"
+ },
+ {
+  "city": "Paguero",
+  "country": "Uruguay"
+ },
+ {
+  "city": "Malagana (San Antonio del Monte)",
+  "country": "Mexico"
+ },
+ {
+  "city": "Offida",
+  "country": "Italy"
+ },
+ {
+  "city": "Union Springs",
+  "country": "United States"
+ },
+ {
+  "city": "Sri Ganganagar",
+  "country": "India"
+ },
+ {
+  "city": "Chastoozer’ye",
+  "country": "Russia"
+ },
+ {
+  "city": "Wardow",
+  "country": "Germany"
+ },
+ {
+  "city": "Dawa",
+  "country": "China"
+ },
+ {
+  "city": "Harbury",
+  "country": "United Kingdom"
+ },
+ {
+  "city": "Marktschellenberg",
+  "country": "Germany"
+ },
+ {
+  "city": "Alishan Township",
+  "country": "Taiwan"
+ },
+ {
+  "city": "Saint-Laurent-de-la-Salanque",
+  "country": "France"
+ },
+ {
+  "city": "Palazu Mare",
+  "country": "Romania"
+ },
+ {
+  "city": "Strážnice",
+  "country": "Czech Republic"
+ },
+ {
+  "city": "Inapatan",
+  "country": "Philippines"
+ },
+ {
+  "city": "Džepčište",
+  "country": "North Macedonia"
+ },
+ {
+  "city": "Casa Rosa",
+  "country": "Mexico"
+ },
+ {
+  "city": "Hollis",
+  "country": "United States"
+ },
+ {
+  "city": "Purbach am Neusiedler See",
+  "country": "Austria"
+ },
+ {
+  "city": "Bridgeville",
+  "country": "United States"
+ },
+ {
+  "city": "Somerton",
+  "country": "United Kingdom"
+ },
+ {
+  "city": "Çatak",
+  "country": "Turkey"
+ },
+ {
+  "city": "Vygonichi",
+  "country": "Russia"
+ },
+ {
+  "city": "Deenwood",
+  "country": "United States"
+ },
+ {
+  "city": "Ansar ol Emam",
+  "country": "Iran"
+ },
+ {
+  "city": "Piedra de Amolar",
+  "country": "Mexico"
+ },
+ {
+  "city": "Cubo de Benavente",
+  "country": "Spain"
+ },
+ {
+  "city": "Palwal",
+  "country": "India"
+ },
+ {
+  "city": "Mansar",
+  "country": "India"
+ },
+ {
+  "city": "Lajes",
+  "country": "Portugal"
+ },
+ {
+  "city": "Guadalupe",
+  "country": "Mexico"
+ },
+ {
+  "city": "Imeko-Afon",
+  "country": "Nigeria"
+ },
+ {
+  "city": "Carryduff",
+  "country": "United Kingdom"
+ },
+ {
+  "city": "Findlay",
+  "country": "United States"
+ },
+ {
+  "city": "Sheets",
+  "country": "United States"
+ },
+ {
+  "city": "Lákkoma",
+  "country": "Greece"
+ },
+ {
+  "city": "Clinton",
+  "country": "United States"
+ },
+ {
+  "city": "Maraveh Tappeh",
+  "country": "Iran"
+ },
+ {
+  "city": "Clayton",
+  "country": "United States"
+ },
+ {
+  "city": "Onset",
+  "country": "United States"
+ },
+ {
+  "city": "Żyrardów",
+  "country": "Poland"
+ },
+ {
+  "city": "New Braintree",
+  "country": "United States"
+ },
+ {
+  "city": "Watari-gun",
+  "country": "Japan"
+ },
+ {
+  "city": "Pittsboro",
+  "country": "United States"
+ },
+ {
+  "city": "San Bernardino de Milpillas Chico",
+  "country": "Mexico"
+ },
+ {
+  "city": "Lipayran",
+  "country": "Philippines"
+ },
+ {
+  "city": "Millmerran",
+  "country": "Australia"
+ },
+ {
+  "city": "Lions Bay",
+  "country": "Canada"
+ },
+ {
+  "city": "Ecublens",
+  "country": "Switzerland"
+ },
+ {
+  "city": "Byadgi",
+  "country": "India"
+ },
+ {
+  "city": "Trairão",
+  "country": "Brazil"
+ },
+ {
+  "city": "Winston",
+  "country": "United States"
+ },
+ {
+  "city": "Saint-Denis-de-Cabanne",
+  "country": "France"
+ },
+ {
+  "city": "Eagleswood",
+  "country": "United States"
+ },
+ {
+  "city": "Erstein",
+  "country": "France"
+ },
+ {
+  "city": "Cividate Camuno",
+  "country": "Italy"
+ },
+ {
+  "city": "Templin",
+  "country": "Germany"
+ },
+ {
+  "city": "Westonzoyland",
+  "country": "United Kingdom"
+ },
+ {
+  "city": "Pontedeume",
+  "country": "Spain"
+ },
+ {
+  "city": "Pedrajas de San Esteban",
+  "country": "Spain"
+ },
+ {
+  "city": "Maaskantje",
+  "country": "Netherlands"
+ },
+ {
+  "city": "Reed Creek",
+  "country": "United States"
+ },
+ {
+  "city": "Vendegies-sur-Écaillon",
+  "country": "France"
+ },
+ {
+  "city": "Mungwi",
+  "country": "Zambia"
+ },
+ {
+  "city": "Foča",
+  "country": "Bosnia and Herzegovina"
+ },
+ {
+  "city": "Verkhniy Lomov",
+  "country": "Russia"
+ },
+ {
+  "city": "Plymouth",
+  "country": "United States"
+ },
+ {
+  "city": "Mabilbila Sur",
+  "country": "Philippines"
+ },
+ {
+  "city": "Bereket",
+  "country": "Turkmenistan"
+ },
+ {
+  "city": "Sambiase",
+  "country": "Italy"
+ },
+ {
+  "city": "Guadalupe Sarabia",
+  "country": "Mexico"
+ },
+ {
+  "city": "Santiurde de Reinosa",
+  "country": "Spain"
+ },
+ {
+  "city": "La Croix Chabourgh",
+  "country": "Saint Lucia"
+ },
+ {
+  "city": "De Loo",
+  "country": "Netherlands"
+ },
+ {
+  "city": "Edenvale",
+  "country": "South Africa"
+ },
+ {
+  "city": "Udot-Fonuweisom",
+  "country": "Micronesia"
+ },
+ {
+  "city": "Kusŏng",
+  "country": "North Korea"
+ },
+ {
+  "city": "Stiles",
+  "country": "United States"
+ },
+ {
+  "city": "Quarry Hill",
+  "country": "Australia"
+ },
+ {
+  "city": "Mizhhirya",
+  "country": "Ukraine"
+ },
+ {
+  "city": "Sengeti",
+  "country": "Indonesia"
+ },
+ {
+  "city": "Princeton",
+  "country": "United States"
+ },
+ {
+  "city": "Armenia",
+  "country": "Colombia"
+ },
+ {
+  "city": "Billy-sous-Mangiennes",
+  "country": "France"
+ },
+ {
+  "city": "Santa Cruz",
+  "country": "Mexico"
+ },
+ {
+  "city": "Nathdwara",
+  "country": "India"
+ },
+ {
+  "city": "Mădăraș",
+  "country": "Romania"
+ },
+ {
+  "city": "Briarcliff",
+  "country": "United States"
+ },
+ {
+  "city": "Micula",
+  "country": "Romania"
+ },
+ {
+  "city": "Home",
+  "country": "United States"
+ },
+ {
+  "city": "Messac",
+  "country": "France"
+ },
+ {
+  "city": "San Michele di Ganzaria",
+  "country": "Italy"
+ },
+ {
+  "city": "Vingtaine de la Moye",
+  "country": "Jersey"
+ },
+ {
+  "city": "San Pedro Mártir",
+  "country": "Mexico"
+ },
+ {
+  "city": "Solginskiy",
+  "country": "Russia"
+ },
+ {
+  "city": "Sankt Nikolai im Sausal",
+  "country": "Austria"
+ },
+ {
+  "city": "Montaigut",
+  "country": "France"
+ },
+ {
+  "city": "Wingville",
+  "country": "United States"
+ },
+ {
+  "city": "Lido di Ostia",
+  "country": "Italy"
+ },
+ {
+  "city": "Cut",
+  "country": "Romania"
+ },
+ {
+  "city": "San Miguel Zapotitlán",
+  "country": "Mexico"
+ },
+ {
+  "city": "Cañada de Gómez",
+  "country": "Argentina"
+ },
+ {
+  "city": "Charleston",
+  "country": "United States"
+ },
+ {
+  "city": "Agios Dimitrios",
+  "country": "Greece"
+ },
+ {
+  "city": "Vasilikí",
+  "country": "Greece"
+ },
+ {
+  "city": "Tota",
+  "country": "Colombia"
+ },
+ {
+  "city": "San Nicolás Amealco",
+  "country": "Mexico"
+ },
+ {
+  "city": "Montmaneu",
+  "country": "Spain"
+ },
+ {
+  "city": "Musestre",
+  "country": "Italy"
+ },
+ {
+  "city": "Lamu",
+  "country": "Kenya"
+ },
+ {
+  "city": "Perwez",
+  "country": "Belgium"
+ }
+]

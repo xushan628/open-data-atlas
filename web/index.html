@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="color-scheme" content="only light" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>开源数据集图鉴 · Open Data Atlas</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🗂️</text></svg>" />
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">🗂️</div>
+      <div>
+        <h1>开源数据集图鉴</h1>
+        <p class="sub">5 个 GitHub 高质量开源数据集 · 已落地成可查询的 SQLite 数据仓库</p>
+      </div>
+    </div>
+    <div class="stats" id="stats">
+      <div><b id="statRows">—</b><span>入库行数</span></div>
+      <div><b id="statDbs">—</b><span>数据集</span></div>
+      <div><b id="statSize">—</b><span>数据库体积</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel">
+    <div class="panel-head">
+      <h2>① 五个数据集</h2>
+      <p>按抖音视频顺序排列；点「浏览」跳到下方表格，点仓库名去上游看原版。</p>
+    </div>
+    <div class="cards" id="cards">
+      <div class="loading">加载中…</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>② 数据浏览</h2>
+      <p>选一张表，输入关键词；后端只做参数化的 LIKE 查询，读了 12 张表里任意一张。</p>
+    </div>
+    <div class="toolbar">
+      <label>数据表
+        <select id="tableSelect"></select>
+      </label>
+      <label class="grow">关键词
+        <input id="searchInput" type="search" placeholder="例如：苏轼 / library / waist / China" />
+      </label>
+      <label>每页
+        <select id="limitSelect">
+          <option>20</option>
+          <option>50</option>
+          <option>100</option>
+        </select>
+      </label>
+      <button id="btnSearch" class="primary">查询</button>
+    </div>
+    <div class="meta-line" id="browseMeta">—</div>
+    <div class="table-wrap"><table id="browseTable"></table></div>
+    <div class="pager">
+      <button id="prevPage" class="ghost">‹ 上一页</button>
+      <span id="pageInfo">1 / 1</span>
+      <button id="nextPage" class="ghost">下一页 ›</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>③ SQL 控制台</h2>
+      <p>只读连接（<code>mode=ro</code>）+ 关键字白名单 + 500 行上限。写操作会被直接拒绝。</p>
+    </div>
+    <div class="chips" id="examples"></div>
+    <textarea id="sqlInput" spellcheck="false">SELECT author, COUNT(*) AS poems FROM poetry_tang GROUP BY author ORDER BY poems DESC LIMIT 10</textarea>
+    <div class="toolbar">
+      <button id="btnRun" class="primary">运行 ▸</button>
+      <button id="btnClear" class="ghost">清空结果</button>
+      <span class="meta-line" id="sqlMeta"></span>
+    </div>
+    <div class="table-wrap"><table id="sqlTable"></table></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>④ 数据从哪来</h2>
+      <p>全部来自公开 GitHub 仓库的原文件，<code>data/manifest.json</code> 里记了每个文件的 git sha 与 sha256，可校验。</p>
+    </div>
+    <div class="table-wrap"><table id="sourceTable"></table></div>
+    <p class="footnote">
+      重新拉数据：<code>python scripts/fetch_data.py</code> · 重建数据库：<code>python scripts/build_db.py</code> ·
+      命令行查询：<code>sqlite3 data/atlas.sqlite</code>
+    </p>
+  </section>
+</main>
+
+<footer class="bottom">
+  <div class="wrap">
+    <span>开源数据集图鉴 · Open Data Atlas</span>
+    <span>数据库 <code>data/atlas.sqlite</code> · 启动 <code>start-atlas.cmd</code> · 停止 <code>stop-atlas.cmd</code></span>
+  </div>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

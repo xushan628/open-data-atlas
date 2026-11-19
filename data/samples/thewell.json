@@ -1,0 +1,134 @@
+[
+ {
+  "dataset": "MHD_256",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "MHD_64",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "acoustic_scattering_discontinuous",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "acoustic_scattering_inclusions",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "acoustic_scattering_maze",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "active_matter",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "convective_envelope_rsg",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "euler_multi_quadrants_openBC",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "euler_multi_quadrants_periodicBC",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "gray_scott_reaction_diffusion",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "helmholtz_staircase",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "planetswe",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "post_neutron_star_merger",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "rayleigh_benard",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "rayleigh_taylor_instability",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "shear_flow",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "supernova_explosion",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "turbulence_gravity_cooling",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "turbulent_radiative_layer_2D",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "turbulent_radiative_layer_3D",
+  "dims": 3,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "viscoelastic_instability",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ },
+ {
+  "dataset": "viscoelastic_instability_v2",
+  "dims": 2,
+  "resolution": "",
+  "fields": ""
+ }
+]

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="color-scheme" content="only light" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>许可证与出处 · 开源数据集图鉴</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">⚖️</div>
+      <div>
+        <h1>许可证与出处</h1>
+        <p class="sub">5 个数据集授权各不相同；二次分享前请对号入座</p>
+      </div>
+    </div>
+    <div><a href="./index.html">← 回图鉴</a></div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="panel">
+    <div class="panel-head">
+      <h2 class="page-title">一览表</h2>
+      <p>本项目只做「下载 + 归一化 + 展示」，不改变数据本身的授权。代码部分为 MIT。</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>数据集</th><th>许可证</th><th>你需要做什么</th><th>原文</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>chinese-poetry</td>
+            <td><span class="badge lic">MIT</span></td>
+            <td>保留版权声明与许可声明即可，商用也行</td>
+            <td><a href="https://github.com/chinese-poetry/chinese-poetry/blob/master/LICENSE" target="_blank" rel="noopener">LICENSE</a></td>
+          </tr>
+          <tr>
+            <td>word-atlas（词光）</td>
+            <td><span class="badge lic">MIT</span> + <span class="badge">CC BY 4.0</span></td>
+            <td>代码 MIT；词条与例句数据 <b>必须署名</b>（标明来源与许可、附链接、说明是否修改）</td>
+            <td><a href="https://github.com/designfuchen/word-atlas/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CONTENT_LICENSE.md</a></td>
+          </tr>
+          <tr>
+            <td>exercises-dataset</td>
+            <td><span class="badge">NOASSERTION</span></td>
+            <td>仓库未给标准 SPDX 许可；动作示范素材标注 © Gym visual。搬运请读 NOTICE 并保留 attribution</td>
+            <td><a href="https://github.com/hasaneyldrm/exercises-dataset/blob/main/NOTICE.md" target="_blank" rel="noopener">NOTICE.md</a></td>
+          </tr>
+          <tr>
+            <td>countries-states-cities-database</td>
+            <td><span class="badge lic">ODbL-1.0</span></td>
+            <td>开放数据库许可：对外提供衍生数据库时需同样以 ODbL 共享，并保留署名</td>
+            <td><a href="https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE" target="_blank" rel="noopener">LICENSE</a></td>
+          </tr>
+          <tr>
+            <td>The Well</td>
+            <td><span class="badge lic">BSD-3-Clause</span></td>
+            <td>保留版权声明、许可条款与免责声明；数据本体另见 Hugging Face 数据集条款</td>
+            <td><a href="https://github.com/PolymathicAI/the_well/blob/main/LICENSE" target="_blank" rel="noopener">LICENSE</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>署名文案（可直接抄）</h2>
+      <p>如果你在公众号/视频/课程里引用本图鉴的数据，建议带上下面这段。</p>
+    </div>
+    <pre class="codeblock"><code>数据来源：
+1) chinese-poetry（MIT）https://github.com/chinese-poetry/chinese-poetry
+2) 词光 · Word Atlas（代码 MIT / 数据 CC BY 4.0）https://github.com/designfuchen/word-atlas
+3) exercises-dataset（见仓库 NOTICE）https://github.com/hasaneyldrm/exercises-dataset
+4) Countries States Cities Database（ODbL-1.0）https://github.com/dr5hn/countries-states-cities-database
+5) The Well（BSD-3-Clause）https://github.com/PolymathicAI/the_well
+
+经「开源数据集图鉴」下载、归一化并整理为 SQLite；本仓库代码 MIT。</code></pre>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>可校验性</h2>
+      <p><code>data/manifest.json</code> 记录了每个文件的来源路径、git blob sha、字节数与 SHA-256，验收脚本会逐个比对。</p>
+    </div>
+    <pre class="codeblock"><code># 校验全部下载文件
+python scripts/verify.py
+
+# 单独校验某个文件（Windows）
+certutil -hashfile "data\raw\poetry\宋词\ci.song.0.json" SHA256</code></pre>
+  </section>
+</main>
+<footer class="bottom">
+  <div class="wrap">
+    <span>开源数据集图鉴 · 许可证说明</span>
+    <span>数据版权归各上游作者所有</span>
+  </div>
+</footer>
+</body>
+</html>
